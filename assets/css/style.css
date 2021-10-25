@@ -8,9 +8,21 @@
 body {
     height: 100vh;
     background: linear-gradient(135deg, #24C6DC, #514A9D); /* Color Combo Taken From Ui Gradients */
+    background-repeat: no-repeat;
 }
 
-.game area {
+.game-area {
     width: 50%;
     min-width: 400px;
+    background-color: #ffffff;
+    height: 20%;
+    min-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+ 
 }
