@@ -20,12 +20,16 @@ for (let button of buttons) {
     });
 }
 
+/** This function increments the computer score by 1 */
+
 function lose() {
     
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
     
 }
+
+/** This function increments the user score by 1 */
 
 function win() {
     
