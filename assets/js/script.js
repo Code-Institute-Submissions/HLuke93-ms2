@@ -27,21 +27,23 @@ function play(playerSelection) {
 
     let computerChoice = Math.floor(Math.random() * 3);
     let computerChoiceWord = choices[computerChoice];
-    console.log(computerChoiceWord);
     let playChoiceWord = choices[playerSelection];
-    console.log(playChoiceWord)
     computerMessage.innerHTML = `Computer Chose ${computerChoiceWord}`;
     userMessage.innerHTML = `You Chose ${choices[playerSelection]}`;
-     
-} 
 
-
-
-
-
-
-
-
-
-
-
+    if (computerChoiceWord === "Rock" && playChoiceWord === "Scissors") {
+        resultMessage.innerHTML = "You Lose 😡";
+    } else if (computerChoiceWord === "Paper" && playChoiceWord === "Rock") {
+        resultMessage.innerHTML = "You Lose 😡";
+    } else if (computerChoiceWord === "Scissors" && playChoiceWord === "Paper") {
+        resultMessage.innerHTML = "You Lose 😡";
+    } else if (computerChoiceWord === "Scissors" && playChoiceWord === "Rock") {
+        resultMessage.innerHTML = "You Win 😃";
+    } else if (computerChoiceWord === "Rock" && playChoiceWord === "Paper") {
+        resultMessage.innerHTML = "You Win 😃";
+    } else if (computerChoiceWord === "Paper" && playChoiceWord === "Scissors") {
+        resultMessage.innerHTML = "You Win 😃";
+    } else {
+        resultMessage.innerHTML = "It's a Draw"
+    }
+}
