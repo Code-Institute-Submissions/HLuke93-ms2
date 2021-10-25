@@ -1,8 +1,8 @@
 
 /**Declaring all DOM elements */
 
-const userScore = document.getElementById("user-score");
-const computerScore = document.getElementById("computer-score");
+let userScore = document.getElementById("user-score");
+let computerScore = document.getElementById("computer-score");
 const userMessage = document.getElementById("user-message");
 const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
@@ -21,6 +21,12 @@ for (let button of buttons) {
     });
 }
 
+userScore.innerHTML = userScore;
+
+
+
+
+
 /** This is the main game function which starts once a player section is chosen and updates the computer and user results message */
 
 function play(playerSelection) {
@@ -33,17 +39,42 @@ function play(playerSelection) {
 
     if (computerChoiceWord === "Rock" && playChoiceWord === "Scissors") {
         resultMessage.innerHTML = "You Lose 😡";
+        resultMessage.style.fontSize = "Large";
+        lose();
     } else if (computerChoiceWord === "Paper" && playChoiceWord === "Rock") {
         resultMessage.innerHTML = "You Lose 😡";
+        resultMessage.style.fontSize = "Large";
+        lose();
     } else if (computerChoiceWord === "Scissors" && playChoiceWord === "Paper") {
         resultMessage.innerHTML = "You Lose 😡";
+        resultMessage.style.fontSize = "Large";
+        lose();
     } else if (computerChoiceWord === "Scissors" && playChoiceWord === "Rock") {
         resultMessage.innerHTML = "You Win 😃";
+        resultMessage.style.fontSize = "Large";
+        win();
     } else if (computerChoiceWord === "Rock" && playChoiceWord === "Paper") {
         resultMessage.innerHTML = "You Win 😃";
+        resultMessage.style.fontSize = "Large";
+        win();
     } else if (computerChoiceWord === "Paper" && playChoiceWord === "Scissors") {
         resultMessage.innerHTML = "You Win 😃";
+        resultMessage.style.fontSize = "Large";
+        win();
     } else {
         resultMessage.innerHTML = "It's a Draw"
+        resultMessage.style.fontSize = "Large";
     }
+}
+
+function lose() {
+    computerScore++;
+    console.log(computerScore);
+    computerScore.textContent = computerScore;
+}
+
+function win() {
+    userScore++;
+    console.log(userScore);
+    userScore.textContent = userScore;
 }
