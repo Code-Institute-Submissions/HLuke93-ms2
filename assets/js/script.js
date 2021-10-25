@@ -1,14 +1,13 @@
 
 /**Declaring all DOM elements */
-
-let userScore = document.getElementById("user-score");
-let computerScore = document.getElementById("computer-score");
+let userScore = 0;
+let computerScore = 0;
 const userMessage = document.getElementById("user-message");
 const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
-const choices = ["Rock", "Paper", "Scissors"]
+const choices = ["Rock", "Paper", "Scissors"];
 
-const buttons = document.querySelectorAll("#btn")
+const buttons = document.querySelectorAll("#btn");
 
 /** Add an event listener for all of the 3 buttons */
 
@@ -21,9 +20,18 @@ for (let button of buttons) {
     });
 }
 
-userScore.innerHTML = userScore;
+function lose() {
+    
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
+    
+}
 
-
+function win() {
+    
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++oldScore;
+}
 
 
 
@@ -67,14 +75,6 @@ function play(playerSelection) {
     }
 }
 
-function lose() {
-    computerScore++;
-    console.log(computerScore);
-    computerScore.textContent = computerScore;
-}
 
-function win() {
-    userScore++;
-    console.log(userScore);
-    userScore.textContent = userScore;
-}
+
+    
