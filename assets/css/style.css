@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); /* Google Fonts */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +11,14 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #24C6DC, #514A9D); /* Color Combo Taken From Ui Gradients */
     background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: Oxygen, sans-serif;
+    color: #514A9D;
+    
 }
 
 .game-area {
-    width: 50%;
+    width: 40%;
     min-width: 400px;
     background-color: #ffffff;
     height: 20%;
@@ -49,4 +55,13 @@ body {
         width: 80px;
         border-radius: 50%;
         cursor: pointer;
+    }
+
+    .item button:hover {
+        font-size: 50px;
+    }
+
+    .result-detail {
+        margin-top: 25px;
+        text-align: center;
     }
