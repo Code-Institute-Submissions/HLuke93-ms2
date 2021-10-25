@@ -21,8 +21,32 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
     
-    
-    
- 
 }
+
+.scores {
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+    .item {
+        width: 80%;
+        margin: 15px auto;
+        display: flex;
+        justify-content: space-around
+
+    } 
+
+    .item button {
+        background-color: #24C6DC ;
+        color: #514A9D;
+        border: none;
+        font-size: 45px;
+        padding: 10px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
