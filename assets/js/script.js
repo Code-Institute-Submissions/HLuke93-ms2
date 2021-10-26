@@ -6,6 +6,7 @@ const userMessage = document.getElementById("user-message");
 const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
 const choices = ["Rock", "Paper", "Scissors"];
+const rules = document.querySelector(".rules");
 
 const buttons = document.querySelectorAll("#btn");
 
@@ -42,6 +43,8 @@ function win() {
 /** This is the main game function which starts once a player section is chosen and updates the computer and user results message */
 
 function play(playerSelection) {
+
+    rules.classList.add("hidden");
 
     let computerChoice = Math.floor(Math.random() * 3);
     let computerChoiceWord = choices[computerChoice];

@@ -38,6 +38,9 @@ body {
 .rules p {
     font-size: .75rem;
     margin-left: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .game-area {
