@@ -27,6 +27,13 @@ function lose() {
     
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
+    if (oldScore === 5) {
+        resultMessage.innerHTML = "Computer Wins";
+        computerMessage.innerHTML = "";
+        userMessage.innerHTML = "";
+
+        
+    }
     
 }
 
@@ -36,6 +43,12 @@ function win() {
     
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
+    if (oldScore === 5) {
+        resultMessage.innerHTML = "You Win";
+        computerMessage.innerHTML = "";
+        userMessage.innerHTML = "";
+        
+    }
 }
 
 
@@ -80,6 +93,8 @@ function play(playerSelection) {
         resultMessage.innerHTML = "It's a Draw"
         resultMessage.style.fontSize = "Large";
     }
+
+    
 }
 
 
