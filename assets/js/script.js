@@ -31,6 +31,7 @@ function lose() {
         resultMessage.innerHTML = "Computer Wins";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
+        document.querySelector('body').style.background = "#FF0000";
 
         
     }
@@ -47,6 +48,7 @@ function win() {
         resultMessage.innerHTML = "You Win";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
+        document.querySelector('body').style.background = "#00FF00";
         
     }
 }
