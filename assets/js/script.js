@@ -106,6 +106,18 @@ function play(playerSelection) {
     
 }
 
+document.querySelector("#restart-game").addEventListener("click" , function() {
+    userScore = 0;
+    computerScore = 0;
+    computerMessage.innerHTML = "";
+    userMessage.innerHTML = "";
+    resultMessage.innerHTML = "";
+    document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
+    document.querySelector('.game-area').style.background = "#FFFFFF";
+    document.querySelector(".restart").classList.add("hidden");
+
+})
+
 
 
     
