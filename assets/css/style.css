@@ -17,9 +17,32 @@ body {
     
 }
 
+.rules {
+    width: 40%;
+    min-width: 320px;
+    background-color: #ffffff;
+    height: 20%;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.rules h1 {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.rules p {
+    font-size: .75rem;
+    margin-left: 10px;
+}
+
 .game-area {
     width: 40%;
-    min-width: 400px;
+    min-width: 320px;
     background-color: #ffffff;
     position: absolute;
     top: 50%;
@@ -62,4 +85,8 @@ body {
     .result-detail {
         margin-top: 25px;
         text-align: center;
+    }
+
+    .hidden {
+        display: none;
     }
