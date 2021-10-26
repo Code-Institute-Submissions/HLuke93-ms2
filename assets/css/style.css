@@ -91,6 +91,25 @@ body {
         margin: 5px 0;
     }
 
+    .restart {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .restart button {
+        font-size: 30px;
+        color: #24C6DC ;
+        background-color: #514A9D;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 25px;
+        margin-top: 5px;
+    }
+
     .hidden {
         display: none;
     }

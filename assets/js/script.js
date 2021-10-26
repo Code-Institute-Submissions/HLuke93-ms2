@@ -7,8 +7,9 @@ const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
 const choices = ["Rock", "Paper", "Scissors"];
 const rules = document.querySelector(".rules");
-
 const buttons = document.querySelectorAll("#btn");
+
+document.querySelector(".restart").classList.add("hidden");
 
 /** Add an event listener for all of the 3 buttons */
 
@@ -28,10 +29,11 @@ function lose() {
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
     if (oldScore === 5) {
-        resultMessage.innerHTML = "Computer Wins";
+        resultMessage.innerHTML = "You Lose !!! 😥";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
-        document.querySelector('body').style.background = "#FF0000";
+        document.querySelector('body').style.background = "#C91F37";
+        document.querySelector(".restart").classList.remove("hidden");
 
         
     }
@@ -45,10 +47,11 @@ function win() {
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
     if (oldScore === 5) {
-        resultMessage.innerHTML = "You Win";
+        resultMessage.innerHTML = "You Win !!! 😆";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
-        document.querySelector('body').style.background = "#00FF00";
+        document.querySelector('body').style.background = "#407A52";
+        document.querySelector(".restart").classList.remove("hidden");
         
     }
 }
