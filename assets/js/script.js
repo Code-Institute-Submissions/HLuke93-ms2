@@ -22,17 +22,19 @@ for (let button of buttons) {
     });
 }
 
-/** This function increments the computer score by 1 */
+/** This function increments the computer score by 1 , checks when score 
+ * reaches 5 and displays restart button once the game is won*/
 
 function lose() {
     
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
-    if (oldScore === 5) {
+    if (oldScore >= 5) {
         resultMessage.innerHTML = "You Lose !!! 😥";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
         document.querySelector('body').style.background = "#C91F37";
+        document.querySelector('.game-area').style.background = "#C91F37";
         document.querySelector(".restart").classList.remove("hidden");
 
         
@@ -40,17 +42,19 @@ function lose() {
     
 }
 
-/** This function increments the user score by 1 */
+/** This function increments the user score by 1, checks when score 
+ * reaches 5 and displays restart button once the game is won */
 
 function win() {
     
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
-    if (oldScore === 5) {
+    if (oldScore >= 5) {
         resultMessage.innerHTML = "You Win !!! 😆";
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
-        document.querySelector('body').style.background = "#407A52";
+        document.querySelector('body').style.background = "#00FF00";
+        document.querySelector('.game-area').style.background = "#00FF00";
         document.querySelector(".restart").classList.remove("hidden");
         
     }
