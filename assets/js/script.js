@@ -39,6 +39,7 @@ function lose() {
         document.querySelector(".restart").classList.remove("hidden");
         resultMessage.innerHTML = "You Lost the game!!! 😡";
         resultMessage.style.fontSize = "x-large";
+        document.querySelector(".item").classList.add("hidden");
         playing = false;
 
         
@@ -62,7 +63,9 @@ function win() {
         document.querySelector(".restart").classList.remove("hidden");
         resultMessage.innerHTML = "You Won the game!!! 😃";
         resultMessage.style.fontSize = "x-large";
+        document.querySelector(".item").classList.add("hidden");
         playing = false;
+        
         
     }
 }
