@@ -12,7 +12,7 @@ let playing = true;
 
 document.querySelector(".restart").classList.add("hidden");
 
-/** Add an event listener for all of the 3 buttons */
+// Add an event listener for all of the 3 buttons 
 
 for (let button of buttons) {
     button.addEventListener("click" , function() {
@@ -115,6 +115,8 @@ function play(playerSelection) {
 
     
 }
+
+// Play Again Button
 
 document.querySelector("#restart-game").addEventListener("click" , function() {
     document.getElementById("computer-score").innerText = 0;
