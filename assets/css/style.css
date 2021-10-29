@@ -101,8 +101,9 @@ body {
 
     .restart button {
         font-size: 30px;
-        color: #24C6DC ;
-        background-color: #514A9D;
+        font-weight: 900;
+        color: #000000 ;
+        background-color: #FFFFFF;
         border: none;
         cursor: pointer;
         padding: 10px;
