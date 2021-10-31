@@ -25,7 +25,7 @@ body {
     min-width: 320px;
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 35px auto;
 }
 
 .rules h1 {
@@ -52,7 +52,7 @@ body {
     min-width: 320px;
     background-color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -135,3 +135,10 @@ body {
     .hidden {
         display: none;
     }
+
+    /* Media Query for Max-Width 1150px */
+@media screen and (max-width: 400px){
+    .game-area {
+        margin-top: 100px;
+    }   
+}
