@@ -11,7 +11,7 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #24C6DC, #514A9D); /* Color Combo Taken From Ui Gradients */
     background-repeat: no-repeat;
-    font-size: 15px;
+    font-size: 60%;
     font-family: Oxygen, sans-serif;
     color: #514A9D;
     
@@ -22,6 +22,7 @@ body {
 
 .rules {
     width: 40%;
+    height: 20vh;
     min-width: 320px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -52,7 +53,7 @@ body {
     min-width: 320px;
     background-color: #ffffff;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -78,7 +79,7 @@ body {
         background-color: #24C6DC ;
         color: #514A9D;
         border: none;
-        font-size: 45px;
+        font-size: 3rem;
         padding: 10px;
         height: 80px;
         width: 80px;
@@ -89,14 +90,14 @@ body {
     /* Hover effect for buttons , increase font size */
 
     .item button:hover {
-        font-size: 50px;
+        font-size: 3.5rem;
     }
 
     .result-detail {
         margin-top: 25px;
         text-align: center;
         margin: 5px 0;
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 
     #comp-message {
@@ -119,7 +120,7 @@ body {
     }
 
     .restart button {
-        font-size: 30px;
+        font-size: 2rem;
         font-weight: 900;
         color: #000000 ;
         background-color: #FFFFFF;
