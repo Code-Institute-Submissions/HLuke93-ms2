@@ -39,14 +39,16 @@ body {
     justify-content: center;
     margin-bottom: 10px;
     font-weight: 900;
+    letter-spacing: 1px;
 }
 
 .rules p {
-    font-size: 150%;
+    font-size: 180%;
     margin-left: 10px;
     display: flex;
     text-align: center;
     justify-content: center;
+    
 }
 
 /* Centered game area */
