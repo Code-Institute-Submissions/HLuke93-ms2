@@ -38,6 +38,7 @@ function lose() {
         document.querySelector('.game-area').style.background = "#C91F37";
         document.querySelector('.game-area').style.marginTop = "-15%";
         document.querySelector(".restart").classList.remove("hidden");
+        document.querySelector(".restart").style.marginTop = "-10%";
         resultMessage.innerHTML = "You Lost the game!!! 😡";
         resultMessage.style.fontSize = "x-large";
         document.querySelector(".item").classList.add("hidden");
@@ -67,6 +68,7 @@ function win() {
         document.querySelector('.game-area').style.background = "#00FF00";
         document.querySelector('.game-area').style.marginTop = "-15%";
         document.querySelector(".restart").classList.remove("hidden");
+        document.querySelector(".restart").style.marginTop = "-10%";
         resultMessage.innerHTML = "You Won the game!!! 😃";
         resultMessage.style.fontSize = "x-large";
         document.querySelector(".item").classList.add("hidden");
