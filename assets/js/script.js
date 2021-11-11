@@ -91,6 +91,7 @@ function play(playerSelection) {
     if (playing){
 
     rules.classList.add("hidden");
+    document.querySelector('.game-area').style.marginTop = "-10%";
 
     let computerChoice = Math.floor(Math.random() * 3);
     let computerChoiceWord = choices[computerChoice];
