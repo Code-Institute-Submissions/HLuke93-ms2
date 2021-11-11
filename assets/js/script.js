@@ -38,7 +38,7 @@ function lose() {
         document.querySelector('.game-area').style.background = "#C91F37";
         document.querySelector('.game-area').style.marginTop = "-10%";
         document.querySelector(".restart").classList.remove("hidden");
-        document.querySelector(".restart").style.marginTop = "-10%";
+        document.querySelector(".restart").style.marginTop = "-5%";
         resultMessage.innerHTML = "You Lost the game!!! 😡";
         resultMessage.style.fontSize = "x-large";
         document.querySelector(".item").classList.add("hidden");
@@ -68,7 +68,7 @@ function win() {
         document.querySelector('.game-area').style.background = "#00FF00";
         document.querySelector('.game-area').style.marginTop = "-10%";
         document.querySelector(".restart").classList.remove("hidden");
-        document.querySelector(".restart").style.marginTop = "-10%";
+        document.querySelector(".restart").style.marginTop = "-5%";
         resultMessage.innerHTML = "You Won the game!!! 😃";
         resultMessage.style.fontSize = "x-large";
         document.querySelector(".item").classList.add("hidden");
@@ -142,6 +142,7 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     resultMessage.innerHTML = "";
     document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
     document.querySelector('.game-area').style.background = "#FFFFFF";
+    document.querySelector('.game-area').style.marginTop = "5%";
     document.querySelector(".restart").classList.add("hidden");
     document.querySelector(".rules").classList.remove("hidden");
     document.querySelector(".item").classList.remove("hidden");
