@@ -36,7 +36,7 @@ function lose() {
         userMessage.innerHTML = "";
         document.querySelector('body').style.background = "#C91F37";
         document.querySelector('.game-area').style.background = "#C91F37";
-        document.querySelector('.game-area').style.marginTop = "-15%";
+        document.querySelector('.game-area').style.marginTop = "-10%";
         document.querySelector(".restart").classList.remove("hidden");
         document.querySelector(".restart").style.marginTop = "-10%";
         resultMessage.innerHTML = "You Lost the game!!! 😡";
@@ -66,7 +66,7 @@ function win() {
         userMessage.innerHTML = "";
         document.querySelector('body').style.background = "#00FF00";
         document.querySelector('.game-area').style.background = "#00FF00";
-        document.querySelector('.game-area').style.marginTop = "-15%";
+        document.querySelector('.game-area').style.marginTop = "-10%";
         document.querySelector(".restart").classList.remove("hidden");
         document.querySelector(".restart").style.marginTop = "-10%";
         resultMessage.innerHTML = "You Won the game!!! 😃";
