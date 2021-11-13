@@ -132,7 +132,7 @@ function play(playerSelection) {
         resultMessage.innerHTML = "It's a Draw"
         resultMessage.style.fontSize = "Large";
     }
-} document.getElementById("logo").style.marginTop = "-25%";
+} document.getElementById("logo").style.marginTop = "0%";
 
 
 
