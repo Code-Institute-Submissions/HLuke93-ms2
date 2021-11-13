@@ -147,7 +147,8 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     computerMessage.innerHTML = "";
     userMessage.innerHTML = "";
     resultMessage.innerHTML = "";
-    document.getElementById("logo").classList.add("add");
+    document.getElementById("logo").classList.remove("hidden");
+    document.getElementById("logo").style.marginTop = "0%";
     document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
     document.querySelector('.game-area').style.background = "#FFFFFF";
     document.querySelector(".restart").classList.add("hidden");
