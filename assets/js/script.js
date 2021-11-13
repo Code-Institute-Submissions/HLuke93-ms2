@@ -8,6 +8,7 @@ const resultMessage = document.getElementById("result");
 const choices = ["Rock", "Paper", "Scissors"];
 const rules = document.querySelector(".rules");
 const buttons = document.querySelectorAll("#btn");
+const logo = document.getElementsByClassName("logo");
 let playing = true; 
 
 document.querySelector(".restart").classList.add("hidden");
@@ -36,6 +37,7 @@ function lose() {
         userMessage.innerHTML = "";
         document.querySelector('body').style.background = "#C91F37";
         document.querySelector('.game-area').style.background = "#C91F37";
+        document.getElementById("logo").classList.add("hidden");
         document.querySelector(".restart").classList.remove("hidden");
         resultMessage.innerHTML = "You Lost the game!!! 😡";
         resultMessage.style.fontSize = "150%";
@@ -44,6 +46,7 @@ function lose() {
         document.querySelector(".game-area").style.fontSize = "x-large";
         document.getElementById("user-score").style.color = "red";
         document.getElementById("computer-score").style.color = "#66ff00";
+        
         playing = false;
 
         
@@ -62,6 +65,7 @@ function win() {
         
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
+        document.getElementById("logo").classList.add("hidden")
         document.querySelector('body').style.background = "#008000";
         document.querySelector('.game-area').style.background = "#008000";
         document.querySelector(".restart").classList.remove("hidden");
@@ -72,6 +76,7 @@ function win() {
         document.querySelector(".game-area").style.fontSize = "x-large";
         document.getElementById("user-score").style.color = "#66ff00";
         document.getElementById("computer-score").style.color = "red";
+        
         playing = false;
         
         
@@ -84,9 +89,12 @@ function win() {
 
 function play(playerSelection) {
 
+    
+
     if (playing){
 
     rules.classList.add("hidden");
+    
     
 
     let computerChoice = Math.floor(Math.random() * 3);
@@ -94,6 +102,7 @@ function play(playerSelection) {
     let playChoiceWord = choices[playerSelection];
     computerMessage.innerHTML = `Computer Chose ${computerChoiceWord}`;
     userMessage.innerHTML = `You Chose ${choices[playerSelection]}`;
+    
 
     if (computerChoiceWord === "Rock" && playChoiceWord === "Scissors") {
         resultMessage.innerHTML = "You Lose 😡";
@@ -123,7 +132,9 @@ function play(playerSelection) {
         resultMessage.innerHTML = "It's a Draw"
         resultMessage.style.fontSize = "Large";
     }
-}
+} document.getElementById("logo").style.marginTop = "-25%";
+
+
 
     
 }
@@ -136,6 +147,7 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     computerMessage.innerHTML = "";
     userMessage.innerHTML = "";
     resultMessage.innerHTML = "";
+    document.getElementById("logo").classList.add("add");
     document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
     document.querySelector('.game-area').style.background = "#FFFFFF";
     document.querySelector(".restart").classList.add("hidden");

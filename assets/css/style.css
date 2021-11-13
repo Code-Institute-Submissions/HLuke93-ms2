@@ -27,7 +27,7 @@ body {
     min-width: 300px;
     background-color: #ffffff;
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 5px;
    
@@ -93,7 +93,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 30%);
+    transform: translate(-50%, 25%);
     border-radius: 10px;
 }
 
@@ -143,12 +143,12 @@ body {
 .logo {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 65%);
+    transform: translate(-50%, 85%);
 }
 
 .logo img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transform: rotate(-20deg);
 }
 
