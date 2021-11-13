@@ -25,7 +25,8 @@ body {
     width: 40vw;
     min-width: 300px;
     background-color: #ffffff;
-    margin: 10px auto;
+    margin: 0 auto;
+    margin-top: 35px;
     border-radius: 10px;
     padding: 5px;
     
@@ -90,7 +91,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 30%);
     border-radius: 10px;
 }
 
