@@ -142,7 +142,6 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     document.querySelector(".rules").classList.remove("hidden");
     document.querySelector(".item").classList.remove("hidden");
     document.querySelector(".game-area").style.color = "#514A9D";
-    document.querySelector(".game-area").style.fontSize = "small";
     document.getElementById("computer-score").style.color = "#514A9D";
     document.getElementById("user-score").style.color = "#514A9D";
     playing = true;
