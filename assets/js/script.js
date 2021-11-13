@@ -43,7 +43,7 @@ function lose() {
         document.querySelector(".game-area").style.color = "white";
         document.querySelector(".game-area").style.fontSize = "x-large";
         document.getElementById("user-score").style.color = "red";
-        document.getElementById("computer-score").style.color = "green";
+        document.getElementById("computer-score").style.color = "#66ff00";
         playing = false;
 
         
@@ -62,15 +62,15 @@ function win() {
         
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
-        document.querySelector('body').style.background = "#00FF00";
-        document.querySelector('.game-area').style.background = "#00FF00";
+        document.querySelector('body').style.background = "#008000";
+        document.querySelector('.game-area').style.background = "#008000";
         document.querySelector(".restart").classList.remove("hidden");
         resultMessage.innerHTML = "You Won the game!!! 😃";
         resultMessage.style.fontSize = "x-large";
         document.querySelector(".item").classList.add("hidden");
         document.querySelector(".game-area").style.color = "white";
         document.querySelector(".game-area").style.fontSize = "x-large";
-        document.getElementById("user-score").style.color = "green";
+        document.getElementById("user-score").style.color = "#66ff00";
         document.getElementById("computer-score").style.color = "red";
         playing = false;
         

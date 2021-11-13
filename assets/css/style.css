@@ -86,7 +86,7 @@ body {
 
 
 .rules {
-    width: 40vw;
+    width: 50vw;
     min-width: 300px;
     background-color: #ffffff;
     position: absolute;
@@ -106,7 +106,7 @@ body {
 }
 
 .rules p {
-    font-size: 180%;
+    font-size: 160%;
     margin-left: 10px;
     display: flex;
     text-align: center;
