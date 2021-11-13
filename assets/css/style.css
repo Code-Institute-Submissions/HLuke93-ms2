@@ -144,7 +144,7 @@ body {
 .logo {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 95%);
+    transform: translate(-50%, 70%);
 }
 
 .logo img {
