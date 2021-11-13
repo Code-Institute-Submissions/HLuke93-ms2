@@ -144,12 +144,12 @@ body {
 .logo {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 90%);
+    transform: translate(-50%, 45%);
 }
 
 .logo img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     transform: rotate(-20deg);
 }
 
@@ -159,3 +159,20 @@ body {
         display: none;
     }
 
+
+
+    @media screen and (max-width: 800px) {
+
+        .logo {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 100%);
+        }
+        
+        .logo img {
+            width: 200px;
+            height: 200px;
+            transform: rotate(-20deg);
+        }
+
+    };
