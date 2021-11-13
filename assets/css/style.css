@@ -19,49 +19,15 @@ body {
 
 
 
-/* Centered rules area */
-
-
-.rules {
-    width: 40vw;
-    min-width: 300px;
-    background-color: #ffffff;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    border-radius: 10px;
-}
-
-.rules h1 {
-    font-size: 310%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.rules p {
-    font-size: 180%;
-    margin-left: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-}
-
 /* Centered game area */
 
 .game-area {
     width: 40vw;
-    min-width: 310px;
+    min-width: 300px;
     background-color: #ffffff;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 10px auto;
     border-radius: 10px;
+    padding: 5px;
     
 }
 
@@ -90,6 +56,7 @@ body {
         width: 80px;
         border-radius: 50%;
         cursor: pointer;
+        margin-left: 5px;
     }
 
     /* Hover effect for buttons , increase font size */
@@ -113,6 +80,38 @@ body {
         color: black;
         font-weight: 700;
     }
+
+    /* Centered rules area */
+
+
+.rules {
+    width: 40vw;
+    min-width: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+}
+
+.rules h1 {
+    font-size: 310%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.rules p {
+    font-size: 180%;
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
 
     /* Centered restart button below main game area */
 
