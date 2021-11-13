@@ -5,7 +5,7 @@ Rock Paper Scissors , Traditionally a Hand Game which is played by 2 people. Thi
 Similar to flipping to coin , a decision can easily and quickly be decided. This website was created to allow user to have online access to the Rock Paper Scissors game.
 Access to the game You can viewed the [Live Website Here](https://hluke93.github.io/ms2/).
 
-![Homepage Demostration on Desktop devices](./assets/images/Desktop View.PNG)
+![Homepage Demostration on Desktop devices](./assets/images/DesktopView.PNG)
 
 ## Rules of the Game
 <hr>
