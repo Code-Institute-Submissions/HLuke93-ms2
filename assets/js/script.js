@@ -138,7 +138,6 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     resultMessage.innerHTML = "";
     document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
     document.querySelector('.game-area').style.background = "#FFFFFF";
-    document.querySelector('.game-area').style.marginTop = "15%";
     document.querySelector(".restart").classList.add("hidden");
     document.querySelector(".rules").classList.remove("hidden");
     document.querySelector(".item").classList.remove("hidden");
