@@ -1,5 +1,5 @@
 
-/**Declaring all DOM elements */
+/**Declaring DOM elements */
 const userMessage = document.getElementById("user-message");
 const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
@@ -136,7 +136,7 @@ function play(playerSelection) {
     
 }
 
-// Play Again Button
+// Play Again Button , Resets scores to 0 , background color etc
 
 document.querySelector("#restart-game").addEventListener("click" , function() {
     document.getElementById("computer-score").innerText = 0;
