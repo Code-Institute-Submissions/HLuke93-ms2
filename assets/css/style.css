@@ -38,7 +38,6 @@ body {
 .scores {
     
     text-align: center;
-    
     font-size: 30px;
 }
 
@@ -162,6 +161,8 @@ body {
         display: none;
     }
 
+     /* Media Query to Decrease Logo size when screen width drops below 1150px */
+
     @media screen and (max-width: 1150px) {
         .logo {
             position: absolute;
@@ -178,7 +179,7 @@ body {
 
     }
 
-
+     /* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
 
     @media screen and (max-width: 800px) {
 
