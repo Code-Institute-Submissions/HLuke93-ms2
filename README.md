@@ -20,8 +20,12 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 * **Color Scheme**
 
 The Background color used is linear-gradient(135deg, #24C6DC, #514A9D). <br>
-This is a personal preferece.
-The Font colors used are also #24C6DC, #514A9D , White and Black are also used.
+
+The Font colors used are also #24C6DC, #514A9D , White and Black are also used. <br>
+
+A #008000 (Green) color is applied to the background when the user wins. <br>
+
+A #C91F37 (Red) color is applied to the background when the computer wins.
 
 * **Logo**
 
