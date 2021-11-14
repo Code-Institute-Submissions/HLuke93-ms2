@@ -21,7 +21,8 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
 The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
-This also indicates to the user what the game being played is.
+This also indicates to the user what the game being played is.<br>
+
 ![Homepage Demostration on Desktop devices](./assets/images/logo.png)
 
 * **The Main Game Area**
