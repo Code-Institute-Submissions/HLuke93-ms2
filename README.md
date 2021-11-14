@@ -23,9 +23,18 @@ The Logo is Located in the top left of the page. The Logo states the name of the
 The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
 This also indicates to the user what the game being played is.<br>
 
-![Homepage Demostration on Desktop devices](./assets/images/logo.png)
+![Main Logo](./assets/images/logo.png)
 
 * **The Main Game Area**
 
 The main game area consists of the User and Computer Score and the 3 game options (Rock, Paper, Scissors). <br>
-The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons.
+The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
+
+![Score Area and Buttons](./assets/images/choice.png)
+
+
+* **Game Rules**
+
+The Game Rules are displayed below the main game area. This explains how rock paper scissors is played and the objective which is first to score 5. <br>
+
+![Game Rules](./assets/images/gamerules.png)
