@@ -5,7 +5,7 @@ Rock Paper Scissors , Traditionally a Hand Game which is played by 2 people. Thi
 Similar to flipping to coin , a decision can easily and quickly be decided. This website was created to allow user to have online access to the Rock Paper Scissors game.
 Access to the game You can viewed the [Live Website Here](https://hluke93.github.io/ms2/).
 
-![Homepage Demostration on Desktop devices](./assets/images/desktopview.png)
+![Homepage Demostration on Desktop devices](./assets/images/desktopviewREADME.png)
 
 # Rules of the Game (Historically)
 
@@ -40,14 +40,14 @@ This also indicates to the user what the game being played is.<br>
 The main game area consists of the User and Computer Score and the 3 game options (Rock, Paper, Scissors). <br>
 The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
 
-![Score Area and Buttons](./assets/images/choice.png)
+![Score Area and Buttons](./assets/images/choicesREADME.png)
 
 
 * **Game Rules**
 
 The Game Rules are displayed below the main game area. This explains how rock paper scissors is played and the objective which is first to score 5. <br>
 
-![Game Rules](./assets/images/gamerules.png)
+![Game Rules](./assets/images/gamerulesREADME.png)
 
 
 # How the game works and is played
@@ -56,11 +56,11 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 * Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
 * A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
 
- ![User Win](./assets/images/usercorrectchoice.png) ![Computer Win](./assets/images/computercorrectchoice.png)
+ ![User Win](./assets/images/usercorrectchoicescreenREADME.png) ![Computer Win](./assets/images/computercorrectchoicescreenREADME.png)
 
 * Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
-![Play again win](./assets/images/playagain.png) ![Play again lose](./assets/images/playagainlose.png)
+![Play again win](./assets/images/playagainwinscreenREADME.png) ![Play again lose](./assets/images/playagainlosescreenREADME.png)
 
 
 # Testing
@@ -77,7 +77,7 @@ Safari
 
 * Lighthouse in Dev Tools was run on this webpage to check accessibility and performace. <br>
 
-![Lighthouse results](./assets/images/lighthouse.png)
+![Lighthouse results](./assets/images/lighthouseREADME.png)
 
 ## Validator Testing
 
@@ -85,13 +85,13 @@ Safari
 
 No Errors found when passing HTML through the Official W3C Validator <br>
 
-![HTML Validator](./assets/images/html.png)
+![HTML Validator](./assets/images/htmlvalidatorREADME.png)
 
 * CSS
 
 No Errors found when passing CSS through the Official Jigsay Validator <br>
 
-![CSS Validator](./assets/images/css.png)
+![CSS Validator](./assets/images/cssvalidatorREADME.png)
 
 * JavaScript
 
