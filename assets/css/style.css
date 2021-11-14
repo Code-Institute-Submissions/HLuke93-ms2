@@ -1,199 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+/* Google Fonts */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    background: linear-gradient(135deg, #24C6DC, #514A9D); /* Color Combo Taken From Ui Gradients */
-    background-repeat: no-repeat;
-    font-size: 62.5%;
-    font-family: Oxygen, sans-serif;
-    color: #514A9D;
-    
-    
+	height: 100vh;
+	background: linear-gradient(135deg, #24C6DC, #514A9D);
+	/* Color Combo Taken From Ui Gradients */
+	background-repeat: no-repeat;
+	font-size: 62.5%;
+	font-family: Oxygen, sans-serif;
+	color: #514A9D;
 }
-
 
 
 /* Centered game area */
 
 .game-area {
-    
-    width: 40vw;
-    min-width: 300px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 5px;
-   
-    
+	width: 40vw;
+	min-width: 300px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 5px;
 }
 
 .scores {
-    
-    text-align: center;
-    font-size: 30px;
+	text-align: center;
+	font-size: 30px;
 }
 
-    .item {
-        width: 80%;
-        margin: 15px auto;
-        display: flex;
-        justify-content: space-around
+.item {
+	width: 80%;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-around
+}
 
-    } 
+.item button {
+	background-color: #24C6DC;
+	color: #514A9D;
+	border: none;
+	font-size: 3rem;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 5px;
+}
 
-    .item button {
-        background-color: #24C6DC ;
-        color: #514A9D;
-        border: none;
-        font-size: 3rem;
-        padding: 10px;
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-        cursor: pointer;
-        margin-left: 5px;
-    }
 
-    /* Hover effect for buttons , increase font size */
+/* Hover effect for buttons , increase font size */
 
-    .item button:hover {
-        font-size: 3.5rem;
-    }
+.item button:hover {
+	font-size: 3.5rem;
+}
 
-    .result-detail {
-        margin-top: 25px;
-        text-align: center;
-        margin: 5px 0;
-        font-size: 1.5rem;
-    }
+.result-detail {
+	margin-top: 25px;
+	text-align: center;
+	margin: 5px 0;
+	font-size: 1.5rem;
+}
 
-    #comp-message {
-        color:#24C6DC;
-    }
+#comp-message {
+	color: #24C6DC;
+}
 
-    #result {
-        color: black;
-        font-weight: 700;
-    }
+#result {
+	color: black;
+	font-weight: 700;
+}
 
-    /* Centered rules area */
 
+/* Centered rules area */
 
 .rules {
-    width: 50vw;
-    min-width: 300px;
-    background-color: #ffffff;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 25%);
-    border-radius: 10px;
-    margin-bottom: 10px;
+	width: 50vw;
+	min-width: 300px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 25%);
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
 
 .rules h1 {
-    font-size: 310%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    font-weight: 900;
-    letter-spacing: 1px;
+	font-size: 310%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-weight: 900;
+	letter-spacing: 1px;
 }
 
 .rules p {
-    font-size: 160%;
-    margin-left: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
+	font-size: 160%;
+	margin-left: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
 }
 
-    /* Centered restart button below main game area */
 
-    .restart {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 0%);
+/* Centered restart button below main game area */
 
-    }
+.restart {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
 
-    .restart button {
-        font-size: 2rem;
-        font-weight: 900;
-        color: #000000 ;
-        background-color: #FFFFFF;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        border-radius: 25px;
-        margin-top: 5px;
-    }
+.restart button {
+	font-size: 2rem;
+	font-weight: 900;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 25px;
+	margin-top: 5px;
+}
 
-    /* Logo */
 
+/* Logo */
 
 .logo {
-    position: absolute;
-    
-    top: 0%;
-    left: 0%;
-    
+	position: absolute;
+	top: 0%;
+	left: 0%;
 }
 
 .logo img {
-    width: 300px;
-    height: 300px;
-    transform: rotate(-20deg);
+	width: 300px;
+	height: 300px;
+	transform: rotate(-20deg);
 }
 
-    /* hidden classes used in javascript */
 
-    .hidden {
-        display: none;
-    }
+/* hidden classes used in javascript */
 
-     /* Media Query to Decrease Logo size when screen width drops below 1150px */
+.hidden {
+	display: none;
+}
 
-    @media screen and (max-width: 1150px) {
-        .logo {
-            position: absolute;
-            
-            top: 0%;
-            left: 0%;
-        }
-        
-        .logo img {
-            width: 250px;
-            height: 250px;
-            transform: rotate(-20deg);
-        }
 
-    }
+/* Media Query to Decrease Logo size when screen width drops below 1150px */
 
-     /* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
+@media screen and (max-width: 1150px) {
+	.logo {
+		position: absolute;
+		top: 0%;
+		left: 0%;
+	}
+	.logo img {
+		width: 250px;
+		height: 250px;
+		transform: rotate(-20deg);
+	}
+}
 
-    @media screen and (max-width: 800px) {
 
-        .logo {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, 50%);
-        }
-        
-        .logo img {
-            width: 200px;
-            height: 200px;
-            transform: rotate(-20deg);
-        }
+/* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
 
-    }
+@media screen and (max-width: 800px) {
+	.logo {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, 50%);
+	}
+	.logo img {
+		width: 200px;
+		height: 200px;
+		transform: rotate(-20deg);
+	}
+}
