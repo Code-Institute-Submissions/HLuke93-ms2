@@ -46,7 +46,7 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 * Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
 * A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
 
-![User Win](./assets/images/usercorrectchoice.png) 
+ ![User Win](./assets/images/usercorrectchoice.png) ![Computer Win](./assets/images/computercorrectchoice.png)
 
 * Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
