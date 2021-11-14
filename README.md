@@ -83,3 +83,47 @@ No Errors found when passing CSS through the Official Jigsay Validator <br>
 
 ![CSS Validator](./assets/images/css.png)
 
+* JavaScript
+
+https://beautifytools.com/javascript-validator.php was used to validate JavaScript Code. This is not an offical validator but it is a great tool.
+
+## Solved Bugs / Unfixed Bugs
+
+During Testing , I could not solve an issue regarding incrementing the user/computer score. 
+
+After Hours of Research i discovered that i was not using the ''parseInt'' function which converts a string into a number.
+
+There are no reamining unfixed bugs
+
+# Credits
+
+## Technologies Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used for the HTML site markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) was used to style the HTML content
+* [Am I Responsive](http://ami.responsivedesign.is/) was used to test the responsiveness of the site
+* [Font Awesome](https://fontawesome.com/) was used for the site icons / social icons
+* [Google Fonts](https://fonts.google.com/) provided the fonts used on the site
+* [Google Chrome Developer tools](https://developer.chrome.com/docs/devtools/) was used to test site responsiveness and to test code
+* [Github](https://github.com/HLuke93) was used as the repository hosting service
+* [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
+* [Animate](https://animate.style/) was used for the animation
+* [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
+* [Online Javascript Validator](https://beautifytools.com/javascript-validator.php) was used for Javascript validation.
+
+* **Content** 
+
+
+The Code used in this website was written by the developer.
+The Code institute , Youtube and W3 Schools were used a guides.
+
+
+* **Media**
+
+
+
+
+The Animation for the Navbar and Social links was take from [Animate](https://animate.style/)
+<br>
+The Main Logo was created using [Logo Design](https://www.freelogodesign.org/)
+
