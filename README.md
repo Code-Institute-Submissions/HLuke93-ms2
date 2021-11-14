@@ -50,4 +50,4 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 * Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
-![Game Rules](./assets/images/playagain.png)
+![Game Rules](./assets/images/playagain.png) ![Game Rules](./assets/images/playagainlose.png)
