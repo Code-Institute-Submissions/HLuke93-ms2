@@ -8,12 +8,12 @@ Access to the game You can viewed the [Live Website Here](https://hluke93.github
 ![Homepage Demostration on Desktop devices](./assets/images/Desktopview.PNG)
 
 # Rules of the Game
-<hr>
+
 
 The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back. They then "throw" by extending it towards their opponent. Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
 
 # Features
-<hr>
+
 
 ## Existing Features
 
@@ -38,3 +38,12 @@ The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and
 The Game Rules are displayed below the main game area. This explains how rock paper scissors is played and the objective which is first to score 5. <br>
 
 ![Game Rules](./assets/images/gamerules.png)
+
+
+# How the game works and is played
+
+* The user starts be selecing one of hte 3 options (Rock, Paper or Scissors).
+* Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
+* A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
+
+![User Win](./assets/images/usercorrectchoice.png)
