@@ -61,7 +61,9 @@ Microsfot Eddge <br>
 Firefox <br>
 Safari
 
-* Testing on all 4 brownsers yielded the same results.
+* Testing on all 4 browsers yielded the same results. The same expected functionality
+
+* Responsivness was testing by using Dev Tools , Testing on a mobile device and using media queries in CSS.
 
 * Lighthouse in Dev Tools was run on this webpage to check accessibility and performace. <br>
 
