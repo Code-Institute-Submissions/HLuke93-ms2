@@ -105,6 +105,22 @@ After Hours of Research i discovered that i was not using the ''parseInt'' funct
 
 There are no reamining unfixed bugs
 
+# Deployment
+
+## GitHub Pages
+
+Deployment of the site to GitHub Pages was done as follows:
+
+
+Login to my GitHub account
+Open the project repo
+Select the 'Settings' tab
+On the left-hand-side menu select the Pages option
+Select the main branch as the source, then click the Save button
+A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/
+Test that the site has successfully gone live by clicking on the link
+
+
 # Credits
 
 ## Technologies Used
