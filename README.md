@@ -95,7 +95,7 @@ No Errors found when passing CSS through the Official Jigsay Validator <br>
 
 * JavaScript
 
-https://beautifytools.com/javascript-validator.php was used to validate JavaScript Code. This is not an offical validator but it is a great tool.
+https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
 
 ## Solved Bugs / Unfixed Bugs
 
@@ -119,7 +119,7 @@ There are no reamining unfixed bugs
 * [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
 * [Animate](https://animate.style/) was used for the animation
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
-* [Online Javascript Validator](https://beautifytools.com/javascript-validator.php) was used for Javascript validation.
+* [Online Javascript Validator](https://jshint.com/) was used for Javascript validation.
 
 ## Content 
 
