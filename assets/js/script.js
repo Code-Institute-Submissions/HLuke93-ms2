@@ -7,7 +7,7 @@ const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
 const choices = ["Rock", "Paper", "Scissors"];
 const rules = document.querySelector(".rules");
-const buttons = document.querySelectorAll("#btn");
+const buttons = document.querySelectorAll(".btn");
 const logo = document.getElementsByClassName("logo");
 let playing = true; 
 
