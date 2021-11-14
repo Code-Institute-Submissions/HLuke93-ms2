@@ -17,6 +17,12 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 
 ## Existing Features
 
+* **Color Scheme**
+
+The Background color used is linear-gradient(135deg, #24C6DC, #514A9D). <br>
+This is a personal preferece.
+The Font colors used are also #24C6DC, #514A9D , White and Black are also used.
+
 * **Logo**
 
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
