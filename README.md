@@ -121,14 +121,14 @@ There are no reamining unfixed bugs
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
 * [Online Javascript Validator](https://beautifytools.com/javascript-validator.php) was used for Javascript validation.
 
-* **Content** 
+## Content 
 
 
 The Code used in this website was written by the developer.
 The Code institute , Youtube and W3 Schools were used a guides.
 
 
-* **Media**
+## Media
 
 
 
