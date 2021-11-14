@@ -69,3 +69,17 @@ Safari
 
 ![Lighthouse results](./assets/images/lighthouse.png)
 
+## Validator Testing
+
+* HTML
+
+No Errors found when passing HTML through the Official W3C Validator <br>
+
+![HTML Validator](./assets/images/html.png)
+
+* CSS
+
+No Errors found when passing CSS through the Official Jigsay Validator <br>
+
+![CSS Validator](./assets/images/css.png)
+

@@ -1,14 +1,11 @@
 
 /**Declaring all DOM elements */
-let userScore = 0;
-let computerScore = 0;
 const userMessage = document.getElementById("user-message");
 const computerMessage = document.getElementById("comp-message");
 const resultMessage = document.getElementById("result");
 const choices = ["Rock", "Paper", "Scissors"];
 const rules = document.querySelector(".rules");
 const buttons = document.querySelectorAll(".btn");
-const logo = document.getElementsByClassName("logo");
 let playing = true; 
 
 document.querySelector(".restart").classList.add("hidden");
@@ -65,7 +62,7 @@ function win() {
         
         computerMessage.innerHTML = "";
         userMessage.innerHTML = "";
-        document.getElementById("logo").classList.add("hidden")
+        document.getElementById("logo").classList.add("hidden");
         document.querySelector('body').style.background = "#008000";
         document.querySelector('.game-area').style.background = "#008000";
         document.querySelector(".restart").classList.remove("hidden");
@@ -129,7 +126,7 @@ function play(playerSelection) {
         resultMessage.style.fontSize = "Large";
         win();
     } else {
-        resultMessage.innerHTML = "It's a Draw"
+        resultMessage.innerHTML = "It's a Draw";
         resultMessage.style.fontSize = "Large";
     }
 } document.getElementById("logo").style.marginTop = "0%";
@@ -159,8 +156,7 @@ document.querySelector("#restart-game").addEventListener("click" , function() {
     document.getElementById("user-score").style.color = "#514A9D";
     playing = true;
 
-})
-
+});
 
 
     
