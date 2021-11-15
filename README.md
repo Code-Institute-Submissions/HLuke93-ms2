@@ -17,6 +17,7 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 
 ## Existing Features
 
+
 * **Color Scheme**
 
 The Background color used is linear-gradient(135deg, #24C6DC, #514A9D). <br>
@@ -27,6 +28,7 @@ A #008000 (Green) color is applied to the background when the user wins. <br>
 
 A #C91F37 (Red) color is applied to the background when the computer wins.
 
+
 * **Logo**
 
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
@@ -34,6 +36,7 @@ The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
 This also indicates to the user what the game being played is.<br>
 
 ![Main Logo](./assets/images/logo.png)
+
 
 * **The Main Game Area**
 
@@ -145,8 +148,6 @@ The Code institute , Youtube and W3 Schools were used a guides.
 
 
 ## Media
-
-
 
 
 The Animation for the Navbar and Social links was take from [Animate](https://animate.style/)
