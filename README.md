@@ -32,7 +32,9 @@ A #C91F37 (Red) color is applied to the background when the computer wins.
 * **Logo**
 
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
+
 The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
+
 This also indicates to the user what the game being played is.<br>
 
 ![Main Logo](./assets/images/logo.png)
@@ -41,6 +43,7 @@ This also indicates to the user what the game being played is.<br>
 * **The Main Game Area**
 
 The main game area consists of the User and Computer Score and the 3 game options (Rock, Paper, Scissors). <br>
+
 The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
 
 ![Score Area and Buttons](./read-me/choicesREADME.png)
