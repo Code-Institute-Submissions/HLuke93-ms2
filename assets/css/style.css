@@ -138,7 +138,7 @@ body {
 
 .logo {
 	position: absolute;
-	top: 0%;
+	top: 20%;
 	left: 0%;
 }
 
@@ -158,23 +158,12 @@ body {
 
 /* Media Query to Decrease Logo size when screen width drops below 1150px */
 
-@media screen and (max-width: 1150px) {
-	.logo {
-		position: absolute;
-		top: 0%;
-		left: 0%;
-	}
-	.logo img {
-		width: 250px;
-		height: 250px;
-		transform: rotate(-20deg);
-	}
-}
+
 
 
 /* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 	.logo {
 		position: absolute;
 		left: 50%;
