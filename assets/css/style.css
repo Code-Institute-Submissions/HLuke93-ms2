@@ -11,7 +11,7 @@
 body {
 	height: 100vh;
 	background: linear-gradient(135deg, #24C6DC, #514A9D);
-	/* Color Combo Taken From Ui Gradients */
+	/* Color Combo Taken From CSS Gradients */
 	background-repeat: no-repeat;
 	font-size: 62.5%;
 	font-family: Oxygen, sans-serif;
@@ -23,11 +23,11 @@ body {
 /* Centered game area */
 
 .game-area {
-	width: 40vw;
+	width: 45vw;
 	min-width: 300px;
 	background-color: #ffffff;
 	margin: 0 auto;
-	margin-top: 10%;
+	margin-top: 5%;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -84,7 +84,7 @@ body {
 /* Centered rules area */
 
 .rules {
-	width: 40vw;
+	width: 45vw;
 	min-width: 300px;
 	background-color: #ffffff;
 	position: absolute;
@@ -95,7 +95,7 @@ body {
 }
 
 .rules h1 {
-	font-size: 310%;
+	font-size: 370%;
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -105,7 +105,7 @@ body {
 }
 
 .rules p {
-	font-size: 160%;
+	font-size: 200%;
 	margin-left: 10px;
 	display: flex;
 	text-align: center;
@@ -138,13 +138,13 @@ body {
 
 .logo {
 	position: absolute;
-	top: 20%;
+	top: 5%;
 	left: 0%;
 }
 
 .logo img {
-	width: 300px;
-	height: 300px;
+	width: 150%;
+	height: 150%;
 	transform: rotate(-20deg);
 }
 
@@ -158,7 +158,12 @@ body {
 
 /* Media Query to Decrease Logo size when screen width drops below 1150px */
 
-
+@media screen and (max-width: 1150px) {
+	.logo img {
+		width: 120%;
+		height: 120%;
+	}
+}
 
 
 /* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
@@ -176,13 +181,13 @@ body {
 		transform: rotate(-20deg);
 	}
 
-	.game-area {
-		width: 40vw;
-		min-width: 300px;
-		background-color: #ffffff;
-		margin: 0 auto;
-		margin-top: 20px;
-		border-radius: 10px;
-		padding: 5px;
+
+	.rules h1 {
+		font-size: 310%;
+		
+	}
+	
+	.rules p {
+		font-size: 150%;
 	}
 }
