@@ -27,7 +27,7 @@ body {
 	min-width: 300px;
 	background-color: #ffffff;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 10%;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -84,7 +84,7 @@ body {
 /* Centered rules area */
 
 .rules {
-	width: 50vw;
+	width: 40vw;
 	min-width: 300px;
 	background-color: #ffffff;
 	position: absolute;
@@ -185,5 +185,15 @@ body {
 		width: 200px;
 		height: 200px;
 		transform: rotate(-20deg);
+	}
+
+	.game-area {
+		width: 40vw;
+		min-width: 300px;
+		background-color: #ffffff;
+		margin: 0 auto;
+		margin-top: 20px;
+		border-radius: 10px;
+		padding: 5px;
 	}
 }
