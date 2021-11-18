@@ -1,11 +1,13 @@
 # Rock Paper Scissors Game (by Luke Hickson)
-<hr>
+
 
 Rock Paper Scissors , Traditionally a Hand Game which is played by 2 people. This Game is often used by 2 persons to make a decision when there are confilcating opinions.
 Similar to flipping to coin , a decision can easily and quickly be decided. This website was created to allow user to have online access to the Rock Paper Scissors game.
 Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.io/ms2/).
 
+
 ![Homepage Demostration on Desktop devices](./read-me/desktopviewREADME.png)
+
 
 
 ## Table of Contents
@@ -19,16 +21,19 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 5. [Deployment](#Deployment)
 6. [Credits](#Credits)
 
+<br>
 
 # Rules of the Game (Historically)
 
 
-The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back. They then "throw" by extending it towards their opponent. Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
+The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back.<br> They then "throw" by extending it towards their opponent.<br> Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
 
 # Features
 
+<br>
 
 ## Existing Features
+<br>
 
 
 * **Color Scheme**
@@ -41,6 +46,7 @@ A  (Green) color is applied to the background when the user wins. <br>
 
 A  (Red) color is applied to the background when the computer wins.
 
+<br>
 
 * **Logo**
 
@@ -52,6 +58,7 @@ This also indicates to the user what the game being played is.<br>
 
 ![Main Logo](./assets/images/logo.png)
 
+<br>
 
 * **The Main Game Area**
 
@@ -60,6 +67,7 @@ The main game area consists of the User and Computer Score and the 3 game option
 The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
 
 ![Score Area and Buttons](./read-me/choicesREADME.png)
+<br>
 
 
 * **Game Rules**
@@ -68,6 +76,7 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 ![Game Rules](./read-me//gamerulesREADME.png)
 
+<br>
 
 # How the game is Played
 
@@ -81,8 +90,10 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 ![Play again win](./read-me/playagainwinscreenREADME.png) ![Play again lose](./read-me/playagainlosescreenREADME.png)
 
+<br>
 
 # Testing
+<br>
 
 * Testing was completed on the following browsers.<br>
 Google Chrome <br>
@@ -97,36 +108,45 @@ Safari
 * Lighthouse in Dev Tools was run on this webpage to check accessibility and performace. <br>
 
 ![Lighthouse results](./read-me/lighthouseREADME.png)
+<br>
 
 ## Validator Testing
+<br>
 
 * HTML
 
 No Errors found when passing HTML through the Official W3C Validator <br>
 
 ![HTML Validator](./read-me/htmlvalidatorREADME.png)
+<br>
 
 * CSS
 
 No Errors found when passing CSS through the Official Jigsay Validator <br>
 
 ![CSS Validator](./read-me/cssvalidatorREADME.png)
+<br>
 
 * JavaScript
+<br>
 
 https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
 
 ## Solved Bugs / Unfixed Bugs
+<br>
 
 During Testing , I could not solve an issue regarding incrementing the user/computer score. 
 
 After Hours of Research i discovered that i was not using the ''parseInt'' function which converts a string into a number.
 
 There are no reamining unfixed bugs
+<br>
 
 # Deployment
+<br>
 
 ## GitHub Pages
+<br>
 
 Deployment of the site to GitHub Pages was done as follows:
 
@@ -139,10 +159,13 @@ Select the main branch as the source, then click the Save button
 A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/
 Test that the site has successfully gone live by clicking on the link
 
+<br>
 
 # Credits
+<br>
 
 ## Technologies Used
+<br>
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) was used for the HTML site markup
 * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) was used to style the HTML content
@@ -155,16 +178,20 @@ Test that the site has successfully gone live by clicking on the link
 * [Animate](https://animate.style/) was used for the animation
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
 * [Online Javascript Validator](https://jshint.com/) was used for Javascript validation.
+<br>
 
 ## Content 
+<br>
 
 
 The Code used in this website was written by the developer.
 The Code institute , Youtube and W3 Schools were used a guides.
 
+<br>
 
 ## Media
 
+<br>
 
 The Animation for the Navbar and Social links was take from [Animate](https://animate.style/)
 <br>
