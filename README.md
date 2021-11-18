@@ -139,6 +139,8 @@ During Testing , I could not solve an issue regarding incrementing the user/comp
 
 After Hours of Research i discovered that i was not using the ''parseInt'' function which converts a string into a number.
 
+``` parseInt(document.getElementById("computer-score").innerText); ```
+
 There are no reamining unfixed bugs
 <br>
 
