@@ -12,7 +12,7 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 
 1. [Rules of thr Game ](#rules)
 2. [Features](#features)
-3. [How the game works and is played](#howthegameisplayed)
+3. [How the game is played](#howthegameisplayed)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
@@ -67,7 +67,7 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 ![Game Rules](./read-me//gamerulesREADME.png)
 
 
-# How the game works and is played
+# How the game is played
 
 * The user starts be selecting one of the 3 options (Rock, Paper or Scissors).
 * Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
