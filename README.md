@@ -35,11 +35,11 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 
 The Background color used is linear-gradient(135deg, #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png)). <br>
 
-The Font colors used are also #24C6DC, #514A9D , White and Black are also used. <br>
+The Font colors used are also #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png) , White and Black are also used. <br>
 
-A #008000 (Green) color is applied to the background when the user wins. <br>
+A  (Green) color is applied to the background when the user wins. <br>
 
-A #C91F37 (Red) color is applied to the background when the computer wins.
+A  (Red) color is applied to the background when the computer wins.
 
 
 * **Logo**
