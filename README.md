@@ -12,10 +12,12 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 
 1. [Rules of the Game ](#rules)
 2. [Features](#features)
-3. [How the game is Played](#how-the-game-is-played)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+   2.1 [Existing Features](#existingeatures)
+   2.2 [Color Scheme](#ColorScheme)
+4. [How the game is Played](#how-the-game-is-played)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 
 # Rules of the Game (Historically)
