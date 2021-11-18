@@ -10,14 +10,14 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 
 ## Table of Contents
 
-1. [Rules of the Game ](#rules)
+1. [Rules of the Game ](#Rules)
 2. [Features](#features)
-   1. [Existing Features](#existingfeatures)
-   2. [Future Features](#futurefeatures)
-3. [How the game is Played](#how-the-game-is-played)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits](#credits)
+   1. [Existing Features](#Existing-Features)
+   2. [Future Features](#Future-Features)
+3. [How the game is Played](#How-the-game-is-Played)
+4. [Testing](#Testing)
+5. [Deployment](#Deployment)
+6. [Credits](#Credits)
 
 
 # Rules of the Game (Historically)
