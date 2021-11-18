@@ -7,6 +7,17 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 
 ![Homepage Demostration on Desktop devices](./read-me/desktopviewREADME.png)
 
+
+## Table of Contents
+
+1. [Rules of thr Game ](#rules)
+2. [Features](#features)
+3. [How the game is played](#howthegameisplayed)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+
+
 # Rules of the Game (Historically)
 
 
