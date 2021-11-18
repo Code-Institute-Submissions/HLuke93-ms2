@@ -78,6 +78,13 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 <br>
 
+## Future Features
+
+<br>
+In the future, i would like to add more detailed graphics to the game. <br>
+I would also like to add a 4rd selection of Spock.
+<br>
+
 # How the game is Played
 
 * The user starts be selecting one of the 3 options (Rock, Paper or Scissors).
@@ -180,6 +187,7 @@ Test that the site has successfully gone live by clicking on the link
 * [Animate](https://animate.style/) was used for the animation
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
 * [Online Javascript Validator](https://jshint.com/) was used for Javascript validation.
+* [Background Color Generator](https://cssgradients.ie/) was used for Main Background Color.
 <br>
 
 ## Content 
