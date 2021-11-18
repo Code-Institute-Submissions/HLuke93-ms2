@@ -27,7 +27,7 @@ body {
 	min-width: 300px;
 	background-color: #ffffff;
 	margin: 0 auto;
-	margin-top: 5%;
+	margin-top: 15%;
 	border-radius: 10px;
 	padding: 5px;
 }
@@ -139,8 +139,8 @@ body {
 
 .logo {
 	position: absolute;
-	top: 5%;
-	left: 0%;
+	left: 10%;
+	transform: translate(-50%, -50%);
 }
 
 .logo img {
@@ -173,13 +173,26 @@ body {
 	.logo {
 		position: absolute;
 		left: 50%;
-		top: 50%;
-		transform: translate(-50%, 50%);
+		transform: translate(-50%, 90%);
 	}
 	.logo img {
 		width: 200px;
 		height: 200px;
 		transform: rotate(-20deg);
+	}
+
+	.game-area {
+		
+		margin-top: 2%;
+		
+	}
+
+	.rules {
+		
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 25%);
+		
 	}
 
 
