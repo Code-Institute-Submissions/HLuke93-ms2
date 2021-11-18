@@ -141,7 +141,7 @@ After Hours of Research i discovered that i was not using the ''parseInt'' funct
 
 ``` parseInt(document.getElementById("computer-score").innerText); ```
 
-There are no reamining unfixed bugs
+There are no remaining unfixed bugs
 <br>
 
 # Deployment
