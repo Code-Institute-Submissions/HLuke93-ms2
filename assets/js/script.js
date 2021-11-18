@@ -37,6 +37,8 @@ function lose() {
 		document.querySelector(".restart").classList.remove("hidden");
 		resultMessage.innerHTML = "You Lost the game!!! 😡";
 		resultMessage.style.fontSize = "150%";
+		resultMessage.style.width = "300px";
+		resultMessage.style.background = ("none");
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
 		document.querySelector(".game-area").style.fontSize = "x-large";
@@ -64,6 +66,7 @@ function win() {
 		document.getElementById("logo").classList.add("hidden");
 		document.querySelector('body').style.background = "#008000";
 		document.querySelector('.game-area').style.background = "#008000";
+		resultMessage.style.background = ("none");
 		document.querySelector(".restart").classList.remove("hidden");
 		resultMessage.innerHTML = "You Won the game!!! 😃";
 		resultMessage.style.fontSize = "150%";
@@ -99,30 +102,37 @@ function play(playerSelection) {
 
 		if (computerChoiceWord === "Rock" && playChoiceWord === "Scissors") {
 			resultMessage.innerHTML = "You Lose 😡";
+			resultMessage.style.background = ("#ffdde0")
 			resultMessage.style.fontSize = "Large";
 			lose();
 		} else if (computerChoiceWord === "Paper" && playChoiceWord === "Rock") {
 			resultMessage.innerHTML = "You Lose 😡";
+			resultMessage.style.background = ("#ffdde0")
 			resultMessage.style.fontSize = "Large";
 			lose();
 		} else if (computerChoiceWord === "Scissors" && playChoiceWord === "Paper") {
 			resultMessage.innerHTML = "You Lose 😡";
+			resultMessage.style.background = ("#ffdde0")
 			resultMessage.style.fontSize = "Large";
 			lose();
 		} else if (computerChoiceWord === "Scissors" && playChoiceWord === "Rock") {
 			resultMessage.innerHTML = "You Win 😃";
+			resultMessage.style.background = ("#cefdce");
 			resultMessage.style.fontSize = "Large";
 			win();
 		} else if (computerChoiceWord === "Rock" && playChoiceWord === "Paper") {
 			resultMessage.innerHTML = "You Win 😃";
+			resultMessage.style.background = ("#cefdce");
 			resultMessage.style.fontSize = "Large";
 			win();
 		} else if (computerChoiceWord === "Paper" && playChoiceWord === "Scissors") {
 			resultMessage.innerHTML = "You Win 😃";
+			resultMessage.style.background = ("#cefdce");
 			resultMessage.style.fontSize = "Large";
 			win();
 		} else {
 			resultMessage.innerHTML = "It's a Draw";
+			resultMessage.style.background = ("none");
 			resultMessage.style.fontSize = "Large";
 		}
 	}
