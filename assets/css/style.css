@@ -116,7 +116,7 @@ body {
 	opacity: 75%;
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, 25%);
+	transform: translate(-50%, 15%);
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
@@ -212,7 +212,7 @@ body {
 	.logo {
 	position: absolute;
 	left: 50%;
-	transform: translate(-150%, 280%);
+	transform: translate(-150%, 295%);
 	}
 
 	.logo img {
@@ -226,7 +226,7 @@ body {
 		
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, 25%);
+	transform: translate(-50%, 15%);
 		
 	}
 
