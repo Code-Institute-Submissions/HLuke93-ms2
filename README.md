@@ -18,7 +18,7 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
    2. [Future Features](#Future-Features)
 3. [How the game is Played](#How-the-game-is-Played)
 4. [Testing](#Testing)
-   1. [Browser Testing](#Broswer-Testing) 
+   1. [Testing on browser](#Testing-on-browser) 
    2. [Validator Testing](#Validator-Testing) 
    3. [Solved Bugs](#Solved-Bugs)
 5. [Deployment](#Deployment)
@@ -105,7 +105,7 @@ I would also like to add a 4rd selection of Spock.
 # Testing
 <br>
 
-## Browser Testing
+## Testing on browser
 
 <br>
 
