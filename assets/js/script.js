@@ -6,33 +6,24 @@ const choices = ["Rock", "Paper", "Scissors"];
 const rules = document.querySelector(".rules");
 const buttons = document.querySelectorAll(".btn");
 let playing = true;
-
 document.querySelector(".restart-game").classList.add("hidden");
 document.querySelector(".restart").classList.add("hidden");
-
-
-
 
 // Add an event listener for all of the 3 buttons 
 
 for (let button of buttons) {
 	button.addEventListener("click", function () {
 		let playerSelection = this.getAttribute("data-choice");
-
 		play(playerSelection);
-
 	});
 }
-
 /** This function increments the computer score by 1 , checks when score 
  * reaches 5 and displays restart button once the game is won*/
-
 function lose() {
 
 	let oldScore = parseInt(document.getElementById("computer-score").innerText);
 	document.getElementById("computer-score").innerText = ++oldScore;
 	if (oldScore >= 5) {
-
 		computerMessage.innerHTML = "";
 		userMessage.innerHTML = "";
 		document.querySelector('body').style.background = "#C91F37";
@@ -50,12 +41,8 @@ function lose() {
 		document.getElementById("computer-score").style.color = "#000000";
 		document.querySelector("#result").style.width = ("90%");
 		document.querySelector("body").style.background = ("linear-gradient(135deg, #f10f0f, #ffffff)");
-
 		playing = false;
-
-
 	}
-
 }
 
 /** This function increments the user score by 1, checks when score 
@@ -66,7 +53,6 @@ function win() {
 	let oldScore = parseInt(document.getElementById("user-score").innerText);
 	document.getElementById("user-score").innerText = ++oldScore;
 	if (oldScore >= 5) {
-
 		computerMessage.innerHTML = "";
 		userMessage.innerHTML = "";
 		document.getElementById("logo").classList.add("hidden");
@@ -84,31 +70,21 @@ function win() {
 		document.getElementById("computer-score").style.color = "#ffffff";
 		document.querySelector("#result").style.width = ("90%");
 		document.querySelector("body").style.background = ("linear-gradient(135deg, #67f10f, #ffffff)");
-
 		playing = false;
-
-
 	}
 }
-
-
 /** This is the main game function which starts once a player section is chosen and updates the computer and user results message */
 
 function play(playerSelection) {
-
-
 	if (playing) {
-
 		rules.classList.add("hidden");
 		document.querySelector(".restart").classList.remove("hidden");
-
 
 		let computerChoice = Math.floor(Math.random() * 3);
 		let computerChoiceWord = choices[computerChoice];
 		let playChoiceWord = choices[playerSelection];
 		computerMessage.innerHTML = `Computer Chose ${computerChoiceWord}`;
 		userMessage.innerHTML = `You Chose ${choices[playerSelection]}`;
-
 
 		if (computerChoiceWord === "Rock" && playChoiceWord === "Scissors") {
 			resultMessage.innerHTML = "You Lose 😡";
@@ -148,7 +124,6 @@ function play(playerSelection) {
 	}
 	document.getElementById("logo").style.marginTop = "0%";
 
-
 }
 
 // Play Again Button , Resets scores to 0 , background color etc
@@ -174,9 +149,7 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 	document.querySelector(".restart").classList.add("hidden");
 	resultMessage.style.background = ("none");
 	playing = true;
-
 });
-
 
 // Restart Button , Resets scores to 0 , background color , can be used mid game.
 
@@ -201,5 +174,4 @@ document.querySelector(".restart").addEventListener("click", function () {
 	document.querySelector(".restart").classList.add("hidden");
 	resultMessage.style.background = ("none");
 	playing = true;
-
 });
