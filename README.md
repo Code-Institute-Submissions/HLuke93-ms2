@@ -91,7 +91,7 @@ I would also like to add a 4rd selection of Spock.
 * Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
 * A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
 
- ![User Win](./read-me/usercorrectchoicescreenREADME.png) ![Computer Win](./read-me/computercorrectchoicescreenREADME.png)
+ ![User Win](./read-me/usercorrectchoicescreemREADME.png) ![Computer Win](./read-me/compcorrectchoicescreenREADME.png) ![Draw](./read-me/drawselectionREADME.PNG)
 
 * Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
