@@ -85,7 +85,7 @@ body {
 }
 
 .result-detail {
-	width: 45vw;
+	width: 100%;
 	margin-top: 25px;
 	text-align: center;
 	margin: 5px 0;
@@ -93,6 +93,7 @@ body {
 }
 
 #result {
+	color: black;
 	width: 150px;
 	padding: 5px;
 	margin: 5px auto;
@@ -103,10 +104,7 @@ body {
 	color: #24C6DC;
 }
 
-#result {
-	color: black;
-	font-weight: 700;
-}
+
 
 
 /* Centered rules area */
