@@ -18,6 +18,8 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
    2. [Future Features](#Future-Features)
 3. [How the game is Played](#How-the-game-is-Played)
 4. [Testing](#Testing)
+   1. [Validator Testing](#Validator-Testing) 
+   2. [Solved Bugs / Unfixed Bugs](#Solved-Bugs-Unfixed-Bugs)
 5. [Deployment](#Deployment)
 6. [Credits](#Credits)
 
@@ -162,12 +164,12 @@ There are no remaining unfixed bugs
 Deployment of the site to GitHub Pages was done as follows:
 
 
-Login to my GitHub account
-Open the project repo
-Select the 'Settings' tab
-On the left-hand-side menu select the Pages option
-Select the main branch as the source, then click the Save button
-A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/
+Login to my GitHub account <br>
+Open the project repo <br>
+Select the 'Settings' tab <br>
+On the left-hand-side menu select the Pages option <br>
+Select the main branch as the source, then click the Save button <br>
+A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/ <br>
 Test that the site has successfully gone live by clicking on the link
 
 <br>
