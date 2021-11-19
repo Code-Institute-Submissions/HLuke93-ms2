@@ -46,8 +46,8 @@ function lose() {
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
 		document.querySelector(".game-area").style.fontSize = "x-large";
-		document.getElementById("user-score").style.color = "red";
-		document.getElementById("computer-score").style.color = "#66ff00";
+		document.getElementById("user-score").style.color = "#ffffff";
+		document.getElementById("computer-score").style.color = "#000000";
 		document.querySelector("#result").style.width = ("90%");
 		document.querySelector("body").style.background = ("linear-gradient(135deg, #f10f0f, #ffffff)");
 
@@ -80,8 +80,8 @@ function win() {
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
 		document.querySelector(".game-area").style.fontSize = "x-large";
-		document.getElementById("user-score").style.color = "#66ff00";
-		document.getElementById("computer-score").style.color = "red";
+		document.getElementById("user-score").style.color = "#000000";
+		document.getElementById("computer-score").style.color = "#ffffff";
 		document.querySelector("#result").style.width = ("90%");
 		document.querySelector("body").style.background = ("linear-gradient(135deg, #67f10f, #ffffff)");
 
