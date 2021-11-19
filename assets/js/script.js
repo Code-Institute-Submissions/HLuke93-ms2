@@ -36,6 +36,7 @@ function lose() {
 		document.getElementById("logo").classList.add("hidden");
 		document.querySelector(".restart").classList.remove("hidden");
 		resultMessage.innerHTML = "You Lost the game!!! 😡";
+		resultMessage.style.width = ("100%");
 		resultMessage.style.fontSize = "150%";
 		resultMessage.style.width = "300px";
 		resultMessage.style.background = ("none");
@@ -69,6 +70,7 @@ function win() {
 		resultMessage.style.background = ("none");
 		document.querySelector(".restart").classList.remove("hidden");
 		resultMessage.innerHTML = "You Won the game!!! 😃";
+		resultMessage.style.width = ("100%");
 		resultMessage.style.fontSize = "150%";
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
@@ -159,6 +161,7 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 	document.querySelector(".game-area").style.color = "#514A9D";
 	document.getElementById("computer-score").style.color = "#514A9D";
 	document.getElementById("user-score").style.color = "#514A9D";
+	resultMessage.style.width = ("150px");
 	playing = true;
 
 });
