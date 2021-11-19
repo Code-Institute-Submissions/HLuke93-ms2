@@ -1,13 +1,10 @@
 # Rock Paper Scissors Game (by Luke Hickson)
 
-
-Rock Paper Scissors , Traditionally a Hand Game which is played by 2 people. This Game is often used by 2 persons to make a decision when there are confilcating opinions.
+Rock Paper Scissors , Traditionally a Hand Game which is played by 2 people. This Game is often used by 2 persons to make a decision when there are conflicting opinions.
 Similar to flipping to coin , a decision can easily and quickly be decided. This website was created to allow user to have online access to the Rock Paper Scissors game.
-Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.io/ms2/).
+Access to the game can viewed here.  [Live Website Here](https://hluke93.github.io/ms2/).
 
-
-![Homepage Demostration on Desktop devices](./read-me/desktopviewREADME.png)
-
+![Homepage Demonstration on Desktop devices](./read-me/desktopviewREADME.png)
 
 
 ## Table of Contents
@@ -41,16 +38,15 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 ## Existing Features
 <br>
 
-
-* **Color Scheme**
+* **Colour Scheme**
 <br>
-The Background color used is linear-gradient(135deg, #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png)). <br>
+The Background colour used is linear-gradient(135deg, #24C6DC ![Blue Colour](./read-me/blueREADME.png) , #514A9D ![Purple Colour](./read-me/purpleREADME.png)). <br>
 
-The Font colors used are also #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png) , White and Black are also used. <br>
+The Font colours used are also #24C6DC ![Blue Colour](./read-me/blueREADME.png) , #514A9D ![Purple Colour](./read-me/purpleREADME.png) , White and Black are also used. <br>
 
-A  (Green) color is applied to the background when the user wins. <br>
+A  (Green) colour is applied to the background when the user wins. <br>
 
-A  (Red) color is applied to the background when the computer wins.
+A  (Red) colour is applied to the background when the computer wins.
 
 <br>
 
@@ -58,7 +54,7 @@ A  (Red) color is applied to the background when the computer wins.
 <br>
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
 
-The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
+The 2 main colours used in the logo are #24C6DC, #514A9D.<br>
 
 This also indicates to the user what the game being played is.<br>
 
@@ -70,11 +66,10 @@ This also indicates to the user what the game being played is.<br>
 <br>
 The main game area consists of the User and Computer Score and the 3 game options (Rock, Paper, Scissors). <br>
 
-The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
+The 2 main colours #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
 
 ![Score Area and Buttons](./read-me/choicesREADME.png)
 <br>
-
 
 * **Game Rules**
 <br>
@@ -83,7 +78,6 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 ![Game Rules](./read-me//gamerulesREADME.png)
 
 <br>
-
 
 * **Restart Button**
 <br>
@@ -97,7 +91,7 @@ During Playing, the user can restart the game by selecting the restart button.<b
 ## Future Features
 
 <br>
-In the future, i would like to add more detailed graphics to the game. <br>
+In the future, I would like to add more detailed graphics to the game. <br>
 I would also like add the Lizard and Spock options to the game.
 <br>
 
@@ -105,15 +99,14 @@ I would also like add the Lizard and Spock options to the game.
 <br>
 <br>
 The user starts be selecting one of the 3 options (Rock, Paper or Scissors).<br>
-Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.<br>
+Once the user selection is made, the JavaScript code generates a random  option for the computer choice , compares the user and computer choice , and increments the score by 1 , depending on the winner.<br>
 A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
 
  ![User Win](./read-me/usercorrectchoicescreemREADME.png) ![Computer Win](./read-me/compcorrectchoicescreenREADME.png) ![Draw](./read-me/drawselectionREADME.PNG)
 
-* Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
+* Once the user or computer reaches a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
 ![Play again win](./read-me/playagainREADME.png) ![Play again lose](./read-me/playagainloseREADME.png)
-
 
 # Testing
 <br>
@@ -124,14 +117,14 @@ A message appears under the buttons after each score which clearly states the us
 
 * Testing was completed on the following browsers.<br>
 Google Chrome <br>
-Microsfot Eddge <br>
+Microsoft Edge <br>
 Firefox <br>
 Safari
 <br>
 I have also tested my site on multiple devices such as include:
 <br>
 Galaxy S5 (360 x 640)<br>
-ipad (768 x 1024)<br>
+iPad (768 x 1024)<br>
 iPhone 12<br>
 iPad Pro (1024 x 1366)<br>
 HP laptop (1980 x1080)<br>
@@ -143,8 +136,7 @@ HP laptop (1980 x1080)<br>
 ![Game Testing](./read-me/manualtesting.png)
 <br>
 
-
-* Lighthouse in Dev Tools was run on this webpage to check accessibility and performace. <br>
+* Lighthouse in Dev Tools was run on this webpage to check accessibility and performance. <br>
 
 ![Lighthouse results](./read-me/lighthouseREADME.png)
 <br>
@@ -161,7 +153,7 @@ No Errors found when passing HTML through the Official W3C Validator <br>
 
 * CSS
 
-No Errors found when passing CSS through the Official Jigsay Validator <br>
+No Errors found when passing CSS through the Official Jigsaw Validator <br>
 
 ![CSS Validator](./read-me/cssvalidatorREADME.png)
 <br>
@@ -178,7 +170,7 @@ https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
 
 During Testing , I could not solve an issue regarding incrementing the user/computer score. 
 
-After Hours of Research i discovered that i was not using the ''parseInt'' function which converts a string into a number.
+After Hours of Research I discovered that I was not using the ''parseInt'' function which converts a string into a number.
 
 ``` parseInt(document.getElementById("computer-score").innerText); ```
 
@@ -192,7 +184,6 @@ There are no remaining unfixed bugs
 <br>
 
 Deployment of the site to GitHub Pages was done as follows:
-
 
 1. Login to my GitHub account <br>
 2. Open the project repo <br>
@@ -220,16 +211,15 @@ Deployment of the site to GitHub Pages was done as follows:
 * [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
 * [Animate](https://animate.style/) was used for the animation
 * [W3C Markup](https://validator.w3.org/) and [Jigsaw validation](https://jigsaw.w3.org/) were used to validate the HTML and CSS used
-* [Online Javascript Validator](https://jshint.com/) was used for Javascript validation.
-* [Background Color Generator](https://cssgradients.ie/) was used for Main Background Color.
+* [Online JavaScript Validator](https://jshint.com/) was used for JavaScript validation.
+* [Background Colour Generator](https://cssgradients.ie/) was used for Main Background Colour.
 <br>
 
 ## Content 
 <br>
 
-
 The Code used in this website was written by the developer.
-The Code institute , Youtube and W3 Schools were used a guides.
+The Code institute , YouTube and W3 Schools were used a guides.
 
 <br>
 
@@ -240,4 +230,5 @@ The Code institute , Youtube and W3 Schools were used a guides.
 The Animation for the Navbar and Social links was take from [Animate](https://animate.style/)
 <br>
 The Main Logo was created using [Logo Design](https://www.freelogodesign.org/)
+
 
