@@ -174,6 +174,12 @@ After Hours of Research I discovered that I was not using the ''parseInt'' funct
 
 ``` parseInt(document.getElementById("computer-score").innerText); ```
 
+<br>
+
+I discovered missing semicolon in several lines of javascript code which was solved after validation with Jshint.
+
+<br>
+
 There are no remaining unfixed bugs
 <br>
 
