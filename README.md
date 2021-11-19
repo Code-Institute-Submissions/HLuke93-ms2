@@ -139,7 +139,7 @@ No Errors found when passing CSS through the Official Jigsay Validator <br>
 
 https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
 
-![JShint](./read-me/jshintREADME.png)
+![JShint](./read-me/jshint.png)
 
 ## Solved Bugs / Unfixed Bugs
 <br>
