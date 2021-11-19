@@ -88,7 +88,7 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 <br>
 In the future, i would like to add more detailed graphics to the game. <br>
-I would also like to add a 4rd selection of Spock.
+I would also like add the Lizard and Spock options to the game.
 <br>
 
 # How the game is Played
