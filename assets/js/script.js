@@ -7,7 +7,9 @@ const rules = document.querySelector(".rules");
 const buttons = document.querySelectorAll(".btn");
 let playing = true;
 
+document.querySelector(".restart-game").classList.add("hidden");
 document.querySelector(".restart").classList.add("hidden");
+
 
 // Add an event listener for all of the 3 buttons 
 
@@ -34,7 +36,7 @@ function lose() {
 		document.querySelector('body').style.background = "#C91F37";
 		document.querySelector('.game-area').style.background = "#C91F37";
 		document.getElementById("logo").classList.add("hidden");
-		document.querySelector(".restart").classList.remove("hidden");
+		document.querySelector(".restart-game").classList.remove("hidden");
 		resultMessage.innerHTML = "You Lost 😡";
 		document.querySelector(".game").style.marginTop = ("20%");
 		resultMessage.style.fontSize = "150%";
@@ -67,7 +69,7 @@ function win() {
 		document.querySelector('body').style.background = "#008000";
 		document.querySelector('.game-area').style.background = "#008000";
 		resultMessage.style.background = ("none");
-		document.querySelector(".restart").classList.remove("hidden");
+		document.querySelector(".restart-game").classList.remove("hidden");
 		document.querySelector(".game").style.marginTop = ("20%")
 		resultMessage.innerHTML = "You Won 😃";
 		resultMessage.style.fontSize = "150%";
@@ -92,6 +94,7 @@ function play(playerSelection) {
 	if (playing) {
 
 		rules.classList.add("hidden");
+		document.querySelector(".restart").classList.remove("hidden");
 
 
 		let computerChoice = Math.floor(Math.random() * 3);
@@ -154,17 +157,41 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 	document.getElementById("logo").style.marginTop = "0%";
 	document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
 	document.querySelector('.game-area').style.background = "#FFFFFF";
-	document.querySelector(".restart").classList.add("hidden");
+	document.querySelector(".restart-game").classList.add("hidden");
 	document.querySelector(".rules").classList.remove("hidden");
 	document.querySelector(".item").classList.remove("hidden");
 	document.querySelector(".game-area").style.color = "#514A9D";
 	document.getElementById("computer-score").style.color = "#514A9D";
 	document.getElementById("user-score").style.color = "#514A9D";
 	resultMessage.style.width = ("150px");
-	document.querySelector(".game").style.marginTop = ("0%")
+	document.querySelector(".game").style.marginTop = ("0%");
+	document.querySelector(".restart").classList.add("hidden");
 	playing = true;
 
 });
 
 
-    
+// Restart Button , Resets scores to 0 , background color , can be used mid game.
+
+document.querySelector(".restart").addEventListener("click", function () {
+	document.getElementById("computer-score").innerText = 0;
+	document.getElementById("user-score").innerText = 0;
+	computerMessage.innerHTML = "";
+	userMessage.innerHTML = "";
+	resultMessage.innerHTML = "";
+	document.getElementById("logo").classList.remove("hidden");
+	document.getElementById("logo").style.marginTop = "0%";
+	document.querySelector('body').style.background = "linear-gradient(135deg, #24C6DC, #514A9D)";
+	document.querySelector('.game-area').style.background = "#FFFFFF";
+	document.querySelector(".restart-game").classList.add("hidden");
+	document.querySelector(".rules").classList.remove("hidden");
+	document.querySelector(".item").classList.remove("hidden");
+	document.querySelector(".game-area").style.color = "#514A9D";
+	document.getElementById("computer-score").style.color = "#514A9D";
+	document.getElementById("user-score").style.color = "#514A9D";
+	resultMessage.style.width = ("150px");
+	document.querySelector(".game").style.marginTop = ("0%");
+	document.querySelector(".restart").classList.add("hidden");
+	playing = true;
+
+});
