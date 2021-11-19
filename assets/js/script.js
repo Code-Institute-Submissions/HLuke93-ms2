@@ -35,10 +35,9 @@ function lose() {
 		document.querySelector('.game-area').style.background = "#C91F37";
 		document.getElementById("logo").classList.add("hidden");
 		document.querySelector(".restart").classList.remove("hidden");
-		resultMessage.innerHTML = "You Lost the game!!! 😡";
-		resultMessage.style.width = ("100%");
+		resultMessage.innerHTML = "You Lost 😡";
+		document.querySelector(".game").style.marginTop = ("15%");
 		resultMessage.style.fontSize = "150%";
-		resultMessage.style.width = "300px";
 		resultMessage.style.background = ("none");
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
@@ -69,8 +68,8 @@ function win() {
 		document.querySelector('.game-area').style.background = "#008000";
 		resultMessage.style.background = ("none");
 		document.querySelector(".restart").classList.remove("hidden");
-		resultMessage.innerHTML = "You Won the game!!! 😃";
-		resultMessage.style.width = ("100%");
+		document.querySelector(".game").style.marginTop = ("15%")
+		resultMessage.innerHTML = "You Won 😃";
 		resultMessage.style.fontSize = "150%";
 		document.querySelector(".item").classList.add("hidden");
 		document.querySelector(".game-area").style.color = "white";
@@ -162,6 +161,7 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 	document.getElementById("computer-score").style.color = "#514A9D";
 	document.getElementById("user-score").style.color = "#514A9D";
 	resultMessage.style.width = ("150px");
+	document.querySelector(".game").style.marginTop = ("0%")
 	playing = true;
 
 });
