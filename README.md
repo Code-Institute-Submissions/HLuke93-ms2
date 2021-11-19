@@ -18,7 +18,7 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
    2. [Future Features](#Future-Features)
 3. [How the game is Played](#How-the-game-is-Played)
 4. [Testing](#Testing)
-   1. [Testing on browser](#Testing-on-browser) 
+   1. [Manual Testing](#Manual-Testing) 
    2. [Validator Testing](#Validator-Testing) 
    3. [Solved Bugs](#Solved-Bugs)
 5. [Deployment](#Deployment)
@@ -114,7 +114,7 @@ During Playing, the user can restart the game by selecting the restart button.<b
 # Testing
 <br>
 
-## Testing on browser
+## Manual Testing
 
 <br>
 
@@ -124,9 +124,20 @@ Microsfot Eddge <br>
 Firefox <br>
 Safari
 
-* Testing on all 4 browsers yielded the same results. The same expected functionality
+I have also tested my site on multiple devices such as include:
 
-* Responsivness was testing by using Dev Tools , Testing on a mobile device and using media queries in CSS.
+Galaxy S5 (360 x 640)
+ipad (768 x 1024)
+iPhone 12
+iPad Pro (1024 x 1366)
+HP laptop (1980 x1080)
+
+## Game Testing
+<br>
+
+![Game Testing](./read-me/manualtesting.png)
+<br>
+
 
 * Lighthouse in Dev Tools was run on this webpage to check accessibility and performace. <br>
 
