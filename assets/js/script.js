@@ -46,6 +46,7 @@ function lose() {
 		document.querySelector(".game-area").style.fontSize = "x-large";
 		document.getElementById("user-score").style.color = "red";
 		document.getElementById("computer-score").style.color = "#66ff00";
+		document.querySelector("#result").style.width = ("90%");
 
 		playing = false;
 
@@ -78,6 +79,7 @@ function win() {
 		document.querySelector(".game-area").style.fontSize = "x-large";
 		document.getElementById("user-score").style.color = "#66ff00";
 		document.getElementById("computer-score").style.color = "red";
+		document.querySelector("#result").style.width = ("90%");
 
 		playing = false;
 
@@ -166,6 +168,7 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 	resultMessage.style.width = ("150px");
 	document.querySelector(".game").style.marginTop = ("0%");
 	document.querySelector(".restart").classList.add("hidden");
+	resultMessage.style.background = ("none");
 	playing = true;
 
 });
@@ -192,6 +195,7 @@ document.querySelector(".restart").addEventListener("click", function () {
 	resultMessage.style.width = ("150px");
 	document.querySelector(".game").style.marginTop = ("0%");
 	document.querySelector(".restart").classList.add("hidden");
+	resultMessage.style.background = ("none");
 	playing = true;
 
 });
