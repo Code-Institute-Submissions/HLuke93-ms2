@@ -84,6 +84,16 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 
 <br>
 
+
+* **Restart Button**
+<br>
+<br>
+
+During Playing, the user can restart the game by selecting the restart button.<br>
+![Restart Button](./read-me/restartbutton.png)
+
+<br>
+
 ## Future Features
 
 <br>
@@ -92,6 +102,7 @@ I would also like add the Lizard and Spock options to the game.
 <br>
 
 # How the game is Played
+<br>
 <br>
 The user starts be selecting one of the 3 options (Rock, Paper or Scissors).<br>
 Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.<br>
@@ -103,13 +114,6 @@ A message appears under the buttons after each score which clearly states the us
 
 ![Play again win](./read-me/playagainREADME.png) ![Play again lose](./read-me/playagainloseREADME.png)
 
-## Restart Button
-<br>
-
-During Playing, the user can restart the game by selecting the restart button.<br>
-![Restart Button](./read-me/restartbutton.png)
-
-<br>
 
 # Testing
 <br>
@@ -123,14 +127,15 @@ Google Chrome <br>
 Microsfot Eddge <br>
 Firefox <br>
 Safari
-
+<br>
 I have also tested my site on multiple devices such as include:
-
-Galaxy S5 (360 x 640)
-ipad (768 x 1024)
-iPhone 12
-iPad Pro (1024 x 1366)
-HP laptop (1980 x1080)
+<br>
+Galaxy S5 (360 x 640)<br>
+ipad (768 x 1024)<br>
+iPhone 12<br>
+iPad Pro (1024 x 1366)<br>
+HP laptop (1980 x1080)<br>
+<br>
 
 ## Game Testing
 <br>
@@ -189,13 +194,13 @@ There are no remaining unfixed bugs
 Deployment of the site to GitHub Pages was done as follows:
 
 
-Login to my GitHub account <br>
-Open the project repo <br>
-Select the 'Settings' tab <br>
-On the left-hand-side menu select the Pages option <br>
-Select the main branch as the source, then click the Save button <br>
-A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/ <br>
-Test that the site has successfully gone live by clicking on the link
+1. Login to my GitHub account <br>
+2. Open the project repo <br>
+3. Select the 'Settings' tab <br>
+4. On the left-hand-side menu select the Pages option <br>
+5. Select the main branch as the source, then click the Save button <br>
+6. A message will confirm that the site has been published at https://YOUR-GITHUB-NAME.github.io/REPO-NAME/ <br>
+7. Test that the site has successfully gone live by clicking on the link
 
 <br>
 
