@@ -16,50 +16,47 @@
       <title>Rock Paper Scissors</title>
    </head>
    <body>
-
       <!-- Game Logo-->
       <div class="logo">
          <img id="logo" src="assets/images/logo.png" alt="Main logo that states Rock Paper Scissors">
       </div>
-
       <div class="game">
-      <!-- Main Game Area-->
-      <div  class="game-area">
-         <!-- Main Score Area-->
-         <div class="scores">
-            <h3 class="animate__animated animate__backInLeft">You : <span id="user-score">0</span></h3>
-            <span></span>
-            <h3 class="animate__animated animate__backInLeft">Computer : <span id="computer-score">0</span></h3>
+         <!-- Main Game Area-->
+         <div  class="game-area">
+            <!-- Main Score Area-->
+            <div class="scores">
+               <h3 class="animate__animated animate__backInLeft">You : <span id="user-score">0</span></h3>
+               <span></span>
+               <h3 class="animate__animated animate__backInLeft">Computer : <span id="computer-score">0</span></h3>
+            </div>
+            <!-- Rock, Paper, Scissors buttons-->
+            <div class="item">
+               <button aria-label="Rock" class="animate__animated animate__backInLeft btn" data-choice="0" ><i class="fas fa-hand-rock"></i></button>
+               <button aria-label="Paper" class="animate__animated animate__backInLeft btn" data-choice="1"><i class="fas fa-hand-paper"></i></button>
+               <button aria-label="Scissors" class="animate__animated animate__backInLeft btn" data-choice="2"><i class="fas fa-hand-scissors"></i></button>
+            </div>
+            <!-- Result message Area-->
+            <div class="result-detail">
+               <p id="user-message"></p>
+               <p id="comp-message"></p>
+               <p id="result"></p>
+            </div>
          </div>
-         <!-- Rock, Paper, Scissors buttons-->
-         <div class="item">
-            <button aria-label="Rock" class="animate__animated animate__backInLeft btn" data-choice="0" ><i class="fas fa-hand-rock"></i></button>
-            <button aria-label="Paper" class="animate__animated animate__backInLeft btn" data-choice="1"><i class="fas fa-hand-paper"></i></button>
-            <button aria-label="Scissors" class="animate__animated animate__backInLeft btn" data-choice="2"><i class="fas fa-hand-scissors"></i></button>
+         <!-- Rules Area-->
+         <div class="rules">
+            <h1>Game Rules :</h1>
+            <p>1) Make A Selection From Rock, Paper, Scissors</p>
+            <p>2) Rock Beats Scissors, Scissors Beats Paper and Paper Beats Rock</p>
+            <p>3) First To 5 Wins</p>
          </div>
-         <!-- Result message Area-->
-         <div class="result-detail">
-            <p id="user-message"></p>
-            <p id="comp-message"></p>
-            <p id="result"></p>
+         <!-- Restart button-->
+         <div class="restart">
+            <button id="restart-game-playing">Restart</button>
+         </div>
+         <div class="restart-game">
+            <button id="restart-game">Play Again</button>
          </div>
       </div>
-      <!-- Rules Area-->
-      <div class="rules">
-         <h1>Game Rules :</h1>
-         <p>1) Make A Selection From Rock, Paper, Scissors</p>
-         <p>2) Rock Beats Scissors, Scissors Beats Paper and Paper Beats Rock</p>
-         <p>3) First To 5 Wins</p>
-      </div>
-      
-      <!-- Restart button-->
-      <div class="restart">
-         <button id="restart-game-playing">Restart</button>
-      </div>
-      <div class="restart-game">
-         <button id="restart-game">Play Again</button>
-      </div>
-   </div>
       <script src="assets/js/script.js"></script>
    </body>
 </html>

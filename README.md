@@ -95,7 +95,7 @@ I would also like to add a 4rd selection of Spock.
 
 * Once the user or computer reachs a score of 5 , the game is over , a winning or loosing message is displayed onscreen, and there is an option to play again by selecting the play again button <br>
 
-![Play again win](./read-me/playagainwinscreenREADME.png) ![Play again lose](./read-me/playagainlosescreenREADME.png)
+![Play again win](./read-me/playagainREADME.png) ![Play again lose](./read-me/playagainloseREADME.png)
 
 <br>
 
@@ -138,6 +138,8 @@ No Errors found when passing CSS through the Official Jigsay Validator <br>
 <br>
 
 https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
+
+![JShint](./read-me/jshintREADME.png)
 
 ## Solved Bugs / Unfixed Bugs
 <br>

@@ -12,7 +12,7 @@ body {
 	height: 100vh;
 	background: linear-gradient(135deg, #24C6DC, #514A9D);
 	/* Color Combo Taken From CSS Gradients */
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	font-size: 62.5%;
 	font-family: Oxygen, sans-serif;
 	color: #514A9D;
@@ -25,13 +25,9 @@ body {
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, -20%);
-	
-
 }
 
-
 .game-area {
-	
 	background-color: #ffffff;
 	opacity: 90%;
 	margin: 0 auto;
@@ -49,8 +45,6 @@ body {
 	width: 450%;
 	height: 450%;
 }
-
-
 
 .scores {
 	text-align: center;
@@ -103,8 +97,6 @@ body {
 #comp-message {
 	color: #24C6DC;
 }
-
-
 
 
 /* Centered rules area */
@@ -164,8 +156,6 @@ body {
 }
 
 
-
-
 /* Center restart button below main game area , only activate when game is won or lost */
 
 .restart-game {
@@ -187,7 +177,6 @@ body {
 }
 
 
-
 /* hidden classes used in javascript */
 
 .hidden {
@@ -195,47 +184,29 @@ body {
 }
 
 
-
-
-
 /* Media Query to Decrease Logo size and move logo underneath rules when screen width drops below 1150px */
 
 @media screen and (max-width: 1024px) {
-
 	.game {
-		
 		transform: translate(-50%, 5%);
-		
-	
 	}
-
 	.logo {
-	position: absolute;
-	left: 50%;
-	transform: translate(-150%, 280%);
+		position: absolute;
+		left: 50%;
+		transform: translate(-150%, 280%);
 	}
-
 	.logo img {
 		width: 300%;
 		height: 300%;
-	
 	}
-
-
 	.rules {
-		
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 15%);
-		
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 15%);
 	}
-
-
 	.rules h1 {
 		font-size: 310%;
-		
 	}
-	
 	.rules p {
 		font-size: 150%;
 	}
