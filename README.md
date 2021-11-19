@@ -18,8 +18,9 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
    2. [Future Features](#Future-Features)
 3. [How the game is Played](#How-the-game-is-Played)
 4. [Testing](#Testing)
-   1. [Validator Testing](#Validator-Testing) 
-   2. [Solved Bugs](#Solved-Bugs-Unfixed-Bugs)
+   1. [Browser Testing](#Broswer-Testing) 
+   2. [Validator Testing](#Validator-Testing) 
+   3. [Solved Bugs](#Solved-Bugs)
 5. [Deployment](#Deployment)
 6. [Credits](#Credits)
 
@@ -104,6 +105,10 @@ I would also like to add a 4rd selection of Spock.
 # Testing
 <br>
 
+## Browser Testing
+
+<br>
+
 * Testing was completed on the following browsers.<br>
 Google Chrome <br>
 Microsfot Eddge <br>
@@ -142,8 +147,8 @@ No Errors found when passing CSS through the Official Jigsay Validator <br>
 https://jshint.com/ was used to validate JavaScript Code. No Errors Found.
 
 ![JShint](./read-me/jshint.jpg)
-
-## Solved Bugs / Unfixed Bugs
+<br>
+## Solved Bugs
 <br>
 
 During Testing , I could not solve an issue regarding incrementing the user/computer score. 
