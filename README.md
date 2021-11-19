@@ -23,14 +23,17 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
    3. [Solved Bugs](#Solved-Bugs)
 5. [Deployment](#Deployment)
 6. [Credits](#Credits)
+    1. [Technologies Used](#Technologies-Used) 
+    2. [Content](#Content) 
+    3. [Media](#Media)
 
 <br>
 
 # Rules of the Game (Historically)
-
+<br>
 
 The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back.<br> They then "throw" by extending it towards their opponent.<br> Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
-
+<br>
 # Features
 
 <br>
@@ -40,7 +43,7 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 
 
 * **Color Scheme**
-
+<br>
 The Background color used is linear-gradient(135deg, #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png)). <br>
 
 The Font colors used are also #24C6DC ![Blue Color](./read-me/blueREADME.png) , #514A9D ![Purple Color](./read-me/purpleREADME.png) , White and Black are also used. <br>
@@ -52,7 +55,7 @@ A  (Red) color is applied to the background when the computer wins.
 <br>
 
 * **Logo**
-
+<br>
 The Logo is Located in the top left of the page. The Logo states the name of the game "Rock Paper Scissors".<br>
 
 The 2 main colors used in the logo are #24C6DC, #514A9D.<br>
@@ -64,7 +67,7 @@ This also indicates to the user what the game being played is.<br>
 <br>
 
 * **The Main Game Area**
-
+<br>
 The main game area consists of the User and Computer Score and the 3 game options (Rock, Paper, Scissors). <br>
 
 The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and buttons. <br>
@@ -74,7 +77,7 @@ The 2 main colors #24C6DC, #514A9D are used in the user and computer score , and
 
 
 * **Game Rules**
-
+<br>
 The Game Rules are displayed below the main game area. This explains how rock paper scissors is played and the objective which is first to score 5. <br>
 
 ![Game Rules](./read-me//gamerulesREADME.png)
@@ -89,7 +92,7 @@ I would also like to add a 4rd selection of Spock.
 <br>
 
 # How the game is Played
-
+<br>
 * The user starts be selecting one of the 3 options (Rock, Paper or Scissors).
 * Once the user selection is made, the javascript code generates a random  option for the computer choice , compares the user and computer choice , and incremenets the score by 1 , depending on the winner.
 * A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
