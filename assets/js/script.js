@@ -11,6 +11,8 @@ document.querySelector(".restart-game").classList.add("hidden");
 document.querySelector(".restart").classList.add("hidden");
 
 
+
+
 // Add an event listener for all of the 3 buttons 
 
 for (let button of buttons) {
@@ -47,6 +49,7 @@ function lose() {
 		document.getElementById("user-score").style.color = "red";
 		document.getElementById("computer-score").style.color = "#66ff00";
 		document.querySelector("#result").style.width = ("90%");
+		document.querySelector("body").style.background = ("linear-gradient(135deg, #f10f0f, #000000)");
 
 		playing = false;
 
@@ -80,6 +83,7 @@ function win() {
 		document.getElementById("user-score").style.color = "#66ff00";
 		document.getElementById("computer-score").style.color = "red";
 		document.querySelector("#result").style.width = ("90%");
+		document.querySelector("body").style.background = ("linear-gradient(135deg, #89f10f, #000000)");
 
 		playing = false;
 
