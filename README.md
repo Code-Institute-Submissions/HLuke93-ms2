@@ -19,7 +19,7 @@ Access to the gamecan viewed here.  [Live Website Here](https://hluke93.github.i
 3. [How the game is Played](#How-the-game-is-Played)
 4. [Testing](#Testing)
    1. [Validator Testing](#Validator-Testing) 
-   2. [Solved Bugs / Unfixed Bugs](#Solved-Bugs-Unfixed-Bugs)
+   2. [Solved Bugs](#Solved-Bugs-Unfixed-Bugs)
 5. [Deployment](#Deployment)
 6. [Credits](#Credits)
 
