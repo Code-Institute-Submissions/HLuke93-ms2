@@ -17,6 +17,7 @@ for (let button of buttons) {
 		play(playerSelection);
 	});
 }
+
 /** This function increments the computer score by 1 , checks when score 
  * reaches 5 and displays restart button once the game is won*/
 function lose() {
@@ -47,7 +48,6 @@ function lose() {
 
 /** This function increments the user score by 1, checks when score 
  * reaches 5 and displays restart button once the game is won */
-
 function win() {
 
 	let oldScore = parseInt(document.getElementById("user-score").innerText);
@@ -73,8 +73,8 @@ function win() {
 		playing = false;
 	}
 }
-/** This is the main game function which starts once a player section is chosen and updates the computer and user results message */
 
+/** This is the main game function which starts once a player section is chosen and updates the computer and user results message */
 function play(playerSelection) {
 	if (playing) {
 		rules.classList.add("hidden");
@@ -127,7 +127,6 @@ function play(playerSelection) {
 }
 
 // Play Again Button , Resets scores to 0 , background color etc
-
 document.querySelector("#restart-game").addEventListener("click", function () {
 	document.getElementById("computer-score").innerText = 0;
 	document.getElementById("user-score").innerText = 0;
@@ -152,7 +151,6 @@ document.querySelector("#restart-game").addEventListener("click", function () {
 });
 
 // Restart Button , Resets scores to 0 , background color , can be used mid game.
-
 document.querySelector(".restart").addEventListener("click", function () {
 	document.getElementById("computer-score").innerText = 0;
 	document.getElementById("user-score").innerText = 0;
