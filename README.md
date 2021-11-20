@@ -130,9 +130,12 @@ The Game Rules are displayed below the main game area. This explains how rock pa
 <br>
 <br>
 
-During Playing, the user can restart the game by selecting the restart button.<br>
+During Playing, the user can restart the game by selecting the restart button.<br><br>
+<br>
 ![Restart Button](./read-me/restartbutton.png)
 
+<br>
+<br>
 <br>
 
 ## Future Features
