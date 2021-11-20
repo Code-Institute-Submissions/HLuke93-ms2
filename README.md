@@ -10,16 +10,18 @@ Access to the game can viewed here.  [Live Website Here](https://hluke93.github.
 ## Table of Contents
 
 1. [Rules of the Game ](#Rules)
-2. [Features](#features)
+2. [User Goals](#User-goals)
+3. [User Expectations](#User-expectations)
+4. [Features](#features)
    1. [Existing Features](#Existing-Features)
    2. [Future Features](#Future-Features)
-3. [How the game is Played](#How-the-game-is-Played)
-4. [Testing](#Testing)
+5. [How the game is Played](#How-the-game-is-Played)
+6. [Testing](#Testing)
    1. [Manual Testing](#Manual-Testing) 
    2. [Validator Testing](#Validator-Testing) 
    3. [Solved Bugs](#Solved-Bugs)
-5. [Deployment](#Deployment)
-6. [Credits](#Credits)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
     1. [Technologies Used](#Technologies-Used) 
     2. [Content](#Content) 
     3. [Media](#Media)
@@ -31,6 +33,32 @@ Access to the game can viewed here.  [Live Website Here](https://hluke93.github.
 
 The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back.<br> They then "throw" by extending it towards their opponent.<br> Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
 <br>
+
+# User Goals
+
+<br>
+The main goal/purpose of this web app/game is to develop a game that allows a user to initiate a game of rock paper scissors against a computer.<br> The computer choice is random there for allowing the user to use this site as a decision making tool when there is a conflicting opinion between parties and the parties choose to use this game to make the end decision. 
+
+<br>
+
+# User Expectations
+
+<br>
+
+
+
+The Game is designed considering the expectation of users to be simple and easy to use and nagivate.
+<br>
+* The user interface is easy to navigate. Upon opening the page , there are clear instruction on how to play the game.
+* The Game generates a random computer choice each time the user selects a button.
+* The Game has a scoreboard which is clearly visible and easy to follow.
+* The Game can be won or lost.
+* The game can be restarted during playing or after the game is over.
+* Responsive design for all screen/device sizes like mobile, tablet and desktop.
+
+<br>
+
+
 # Features
 
 <br>
@@ -92,7 +120,8 @@ During Playing, the user can restart the game by selecting the restart button.<b
 
 <br>
 In the future, I would like to add more detailed graphics to the game. <br>
-I would also like add the Lizard and Spock options to the game.
+I would also like add the Lizard and Spock options to the game.<br>
+Finally, i would like to add a feedback form at the end of the game which would rate the users experience and allow a field for user comments.
 <br>
 
 # How the game is Played
