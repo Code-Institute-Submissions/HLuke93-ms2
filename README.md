@@ -30,7 +30,9 @@ Access to the game can viewed here.  [Live Website Here](https://hluke93.github.
 
 # Rules of the Game (Historically)
 <br>
+
 [Go to the top](#Table-of-Contents)
+
 <br>
 
 The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back.<br> They then "throw" by extending it towards their opponent.<br> Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
@@ -39,11 +41,21 @@ The players count aloud to three, or speak the name of the game (e.g. "Rock! Pap
 # User Goals
 
 <br>
+
+[Go to the top](#Table-of-Contents)
+
+
+<br>
 The main goal/purpose of this web app/game is to develop a game that allows a user to initiate a game of rock paper scissors against a computer.<br> The computer choice is random there for allowing the user to use this site as a decision making tool when there is a conflicting opinion between parties and the parties choose to use this game to make the end decision. 
 
 <br>
 
 # User Expectations
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
 
 <br>
 
@@ -62,6 +74,11 @@ The Game is designed considering the expectation of users to be simple and easy 
 
 
 # Features
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
 
 <br>
 
@@ -128,7 +145,12 @@ Finally, i would like to add a feedback form at the end of the game which would 
 
 # How the game is Played
 <br>
+
+[Go to the top](#Table-of-Contents)
+
+
 <br>
+
 The user starts be selecting one of the 3 options (Rock, Paper or Scissors).<br>
 Once the user selection is made, the JavaScript code generates a random  option for the computer choice , compares the user and computer choice , and increments the score by 1 , depending on the winner.<br>
 A message appears under the buttons after each score which clearly states the user choice and computer choice , and a result messages <br>
@@ -140,6 +162,12 @@ A message appears under the buttons after each score which clearly states the us
 ![Play again win](./read-me/playagainREADME.png) ![Play again lose](./read-me/playagainloseREADME.png)
 
 # Testing
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
 <br>
 
 ## Manual Testing
@@ -215,6 +243,12 @@ There are no remaining unfixed bugs
 <br>
 
 # Deployment
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
 <br>
 
 ## GitHub Pages
@@ -233,6 +267,12 @@ Deployment of the site to GitHub Pages was done as follows:
 <br>
 
 # Credits
+
+<br>
+
+[Go to the top](#Table-of-Contents)
+
+
 <br>
 
 ## Technologies Used
