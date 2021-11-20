@@ -30,6 +30,8 @@ Access to the game can viewed here.  [Live Website Here](https://hluke93.github.
 
 # Rules of the Game (Historically)
 <br>
+[Go to the top](#Table-of-Contents)
+<br>
 
 The players count aloud to three, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), either raising one hand in a fist and swinging it down with each syllable or holding it behind their back.<br> They then "throw" by extending it towards their opponent.<br> Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
 <br>
